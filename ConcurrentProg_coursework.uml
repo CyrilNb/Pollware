@@ -1,0 +1,1374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_tTsqwKG-EeWo4MryxFK7EQ" name="ConcurrentProg_coursework">
+    <eAnnotations xmi:id="_tcXekKG-EeWo4MryxFK7EQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_tcYFoKG-EeWo4MryxFK7EQ" source="codegen">
+        <details xmi:id="_tcYFoaG-EeWo4MryxFK7EQ" key="codegenDirectory" value="/ConcurrentProg_coursework/src"/>
+        <details xmi:id="_ttC-4KG-EeWo4MryxFK7EQ" key="AssociatedSourceCode" value="/ConcurrentProg_coursework/src/cm3033/CyrilNiobe/ClientRequest.java;2344637236/1;/ConcurrentProg_coursework/src/cm3033/CyrilNiobe/Main.java;690606688/1;/ConcurrentProg_coursework/src/cm3033/CyrilNiobe/Nominated.java;3841079171/1;/ConcurrentProg_coursework/src/cm3033/CyrilNiobe/Server.java;377442237/1;/ConcurrentProg_coursework/src/cm3033/CyrilNiobe/ServerGUIController.java;253449866/1;/ConcurrentProg_coursework/src/cm3033/CyrilNiobe/VotingRound.java;3372846340/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_tmxXwKG-EeWo4MryxFK7EQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_tmx-0KG-EeWo4MryxFK7EQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_tmx-0aG-EeWo4MryxFK7EQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_tmx-0qG-EeWo4MryxFK7EQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_tmx-06G-EeWo4MryxFK7EQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_tmyl4KG-EeWo4MryxFK7EQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_tmyl4aG-EeWo4MryxFK7EQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_tmyl4qG-EeWo4MryxFK7EQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_tmyl46G-EeWo4MryxFK7EQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_tmPMQKG-EeWo4MryxFK7EQ" name="cm3033">
+      <packagedElement xmi:type="uml:Package" xmi:id="_tmSPkKG-EeWo4MryxFK7EQ" name="CyrilNiobe">
+        <packagedElement xmi:type="uml:Class" xmi:id="_tmvikKG-EeWo4MryxFK7EQ" name="ClientRequest">
+          <ownedComment xmi:id="_tpc4UKG-EeWo4MryxFK7EQ">
+            <body>*
+@author Cyril</body>
+          </ownedComment>
+          <ownedAttribute xmi:id="_tpEd0KG-EeWo4MryxFK7EQ" name="socket" visibility="package" type="_toAG0aG-EeWo4MryxFK7EQ" association="_tpgisKG-EeWo4MryxFK7EQ"/>
+          <ownedAttribute xmi:id="_tpEd0qG-EeWo4MryxFK7EQ" name="name" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_tpFE4KG-EeWo4MryxFK7EQ" name="" visibility="package" type="_tnLAYKG-EeWo4MryxFK7EQ" association="_tphJwaG-EeWo4MryxFK7EQ"/>
+          <ownedAttribute xmi:id="_tpFE4qG-EeWo4MryxFK7EQ" name="ip" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <interfaceRealization xmi:id="_toufkaG-EeWo4MryxFK7EQ" client="_tmvikKG-EeWo4MryxFK7EQ" supplier="_tot4gKG-EeWo4MryxFK7EQ" contract="_tot4gKG-EeWo4MryxFK7EQ"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpWKoKG-EeWo4MryxFK7EQ" name="ClientRequest" specification="_tovGoKG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpWKoaG-EeWo4MryxFK7EQ" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_tpWKoqG-EeWo4MryxFK7EQ" name="sock" type="_toAG0aG-EeWo4MryxFK7EQ"/>
+            <ownedParameter xmi:id="_tpWKo6G-EeWo4MryxFK7EQ" name="votinground" type="_tnLAYKG-EeWo4MryxFK7EQ"/>
+            <ownedParameter xmi:id="_tpWKpKG-EeWo4MryxFK7EQ" name="ip">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_tpWKpaG-EeWo4MryxFK7EQ" type="_tmvikKG-EeWo4MryxFK7EQ" direction="return">
+              <name xsi:nil="true"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>this.name = name;
+     this.socket = sock;
+     this. = votinground;
+     this.ip = ip;
+ </body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpWxsKG-EeWo4MryxFK7EQ" name="run" specification="_tm0bEKG-EeWo4MryxFK7EQ">
+            <language>java</language>
+            <body>try{
+         //set up streams for bidirectionnal transfer across connection socket
+         BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+         PrintWriter out = new PrintWriter(socket.getOutputStream(),true);
+         out.println(&quot;\nYou are connected to the Big Brother Vote Counter\n&quot;);
+         out.println(&quot;Type Exit to quit the server\n&quot;);
+         DateFormat dateFormat = new SimpleDateFormat(&quot;HH:mm:ss&quot;);
+         while(!this..isOpen()){
+         	if(this..getDateEnding() == null){
+         		out.println(&quot;There is no currently voting round open. You will quit the server. \n&quot;);
+         	}
+         	else{
+         		out.println(this..showListNominated() + &quot;\n&quot; );
+         		out.println(&quot;The voting round closed at: &quot; + dateFormat.format(this..getDateEnding()) + &quot;\n&quot;);
+         		out.println(&quot;Sorry, you can't vote anymore. You will quit the server. \n&quot;);
+         	}
+         	socket.close();	
+         }
+         out.println(&quot;The voting round opened at: &quot; + dateFormat.format(this..getDateOpening()) + &quot;\n&quot;);
+         boolean done = false;
+         out.println(.showListNominated());
+         while(!done){
+				done = .askForVote(in, out,this);
+         }
+         if(.vote.compareToIgnoreCase(&quot;Exit&quot;)!=0)
+         {
+         	out.println(&quot;'Exit' to quit the server&quot;);
+	            String str = in.readLine();
+	            while((str.compareToIgnoreCase(&quot;Exit&quot;)) != 0)
+	            {
+	            	out.println(&quot;'Exit' to quit the server&quot;);
+	            	str = in.readLine();
+	            }
+	            socket.close();
+         }
+         socket.close();
+     }
+     catch(Exception ex)
+     {
+         System.out.println(ex);
+     }
+ </body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_tm0bEKG-EeWo4MryxFK7EQ" name="run" method="_tpWxsKG-EeWo4MryxFK7EQ"/>
+          <ownedOperation xmi:id="_tovGoKG-EeWo4MryxFK7EQ" name="ClientRequest" method="_tpWKoKG-EeWo4MryxFK7EQ">
+            <eAnnotations xmi:id="_tovtsKG-EeWo4MryxFK7EQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_tovtsaG-EeWo4MryxFK7EQ" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_tovGoaG-EeWo4MryxFK7EQ" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_tovGoqG-EeWo4MryxFK7EQ" name="sock" type="_toAG0aG-EeWo4MryxFK7EQ"/>
+            <ownedParameter xmi:id="_tovGo6G-EeWo4MryxFK7EQ" name="votinground" type="_tnLAYKG-EeWo4MryxFK7EQ"/>
+            <ownedParameter xmi:id="_tovGpKG-EeWo4MryxFK7EQ" name="ip">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_tovtsqG-EeWo4MryxFK7EQ" type="_tmvikKG-EeWo4MryxFK7EQ" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tm23UKG-EeWo4MryxFK7EQ" name="Main">
+          <generalization xmi:id="_tow706G-EeWo4MryxFK7EQ" general="_toE_UaG-EeWo4MryxFK7EQ"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpWxsaG-EeWo4MryxFK7EQ" name="start" specification="_towUwKG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpWxsqG-EeWo4MryxFK7EQ" name="primaryStage" type="_toG0gaG-EeWo4MryxFK7EQ"/>
+            <language>java</language>
+            <body>try {
+			FXMLLoader loader = new FXMLLoader(getClass().getResource(&quot;ServerGUI.fxml&quot;));
+			Parent root = (Parent) loader.load(getClass().getResource(&quot;ServerGUI.fxml&quot;).openStream());
+			
+			Scene scene = new Scene(root);
+			primaryStage.setScene(scene);
+			primaryStage.setTitle(&quot;Big Brother house voting&quot;);
+			primaryStage.show();
+
+			ServerGUIController mainController = loader.&lt;ServerGUIController>getController();
+			
+			Timeline timeline = new Timeline(new KeyFrame(
+								Duration.millis(100),
+								new EventHandler&lt;ActionEvent>() {
+							          @Override public void handle(ActionEvent actionEvent) {
+							        	  if(mainController != null)
+							        		  mainController.refresh();
+							          }
+					            }
+		    ));
+		    timeline.setCycleCount(Animation.INDEFINITE);
+		    timeline.play();
+			
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpWxs6G-EeWo4MryxFK7EQ" name="main" specification="_tm3eYKG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpWxtKG-EeWo4MryxFK7EQ" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tpWxtaG-EeWo4MryxFK7EQ" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>launch(args);
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_tm3eYKG-EeWo4MryxFK7EQ" name="main" isStatic="true" method="_tpWxs6G-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tm3eYaG-EeWo4MryxFK7EQ" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tm4FcKG-EeWo4MryxFK7EQ" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_towUwKG-EeWo4MryxFK7EQ" name="start" method="_tpWxsaG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_towUwaG-EeWo4MryxFK7EQ" name="primaryStage" type="_toG0gaG-EeWo4MryxFK7EQ"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tm5TkKG-EeWo4MryxFK7EQ" name="Nominated">
+          <ownedComment xmi:id="_tpc4UaG-EeWo4MryxFK7EQ">
+            <body>Class which represents a Nominated in the Big Brother Game
+@author Cyril
+ *</body>
+          </ownedComment>
+          <ownedAttribute xmi:id="_tpFr8KG-EeWo4MryxFK7EQ" name="NumberOfVote" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_tpFr8qG-EeWo4MryxFK7EQ" value="0"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_tpG6EKG-EeWo4MryxFK7EQ" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpX_0KG-EeWo4MryxFK7EQ" name="Nominated" specification="_tm56oKG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpX_0aG-EeWo4MryxFK7EQ" name="n">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_tpX_0qG-EeWo4MryxFK7EQ" type="_tm5TkKG-EeWo4MryxFK7EQ" direction="return"/>
+            <language>java</language>
+            <body>this.setName(n);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpX_06G-EeWo4MryxFK7EQ" name="incrementVote" specification="_tm6hs6G-EeWo4MryxFK7EQ">
+            <language>java</language>
+            <body>this.NumberOfVote ++;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpX_1KG-EeWo4MryxFK7EQ" name="equals" specification="_toyJ8aG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpX_1aG-EeWo4MryxFK7EQ" name="obj" type="_toxi4KG-EeWo4MryxFK7EQ"/>
+            <ownedParameter xmi:id="_tpX_1qG-EeWo4MryxFK7EQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>if(!(obj instanceof Nominated)) //if the given parameter is not a Nominated
+			return false;
+		Nominated nominated = (Nominated) obj;
+		return this.getName() == nominated.getName();
+		
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpX_16G-EeWo4MryxFK7EQ" name="toString" specification="_tm7IwKG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpX_2KG-EeWo4MryxFK7EQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return this.getName();
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_tm56oKG-EeWo4MryxFK7EQ" name="Nominated" method="_tpX_0KG-EeWo4MryxFK7EQ">
+            <eAnnotations xmi:id="_tm6hsKG-EeWo4MryxFK7EQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_tm6hsaG-EeWo4MryxFK7EQ" key="create"/>
+            </eAnnotations>
+            <ownedComment xmi:id="_tpdfYKG-EeWo4MryxFK7EQ">
+              <body>Constructor of a Nominated
+	 * @param n : name of the person nominated</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_tm56oaG-EeWo4MryxFK7EQ" name="n">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_tm6hsqG-EeWo4MryxFK7EQ" type="_tm5TkKG-EeWo4MryxFK7EQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_tm6hs6G-EeWo4MryxFK7EQ" name="incrementVote" method="_tpX_06G-EeWo4MryxFK7EQ">
+            <eAnnotations xmi:id="_tm6htKG-EeWo4MryxFK7EQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_tm6htaG-EeWo4MryxFK7EQ" key="synchronized"/>
+            </eAnnotations>
+          </ownedOperation>
+          <ownedOperation xmi:id="_tm7IwKG-EeWo4MryxFK7EQ" name="toString" method="_tpX_16G-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tm7IwaG-EeWo4MryxFK7EQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_toyJ8aG-EeWo4MryxFK7EQ" name="equals" method="_tpX_1KG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_toyJ8qG-EeWo4MryxFK7EQ" name="obj" type="_toxi4KG-EeWo4MryxFK7EQ"/>
+            <ownedParameter xmi:id="_toyxAKG-EeWo4MryxFK7EQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tm8W4KG-EeWo4MryxFK7EQ" name="Server">
+          <ownedAttribute xmi:id="_tpG6EaG-EeWo4MryxFK7EQ" name="NTHREADS" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_tpHhIKG-EeWo4MryxFK7EQ" value="4"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_tpHhIaG-EeWo4MryxFK7EQ" name="i" visibility="private" isStatic="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_tpHhIqG-EeWo4MryxFK7EQ" value="1"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_tpIIMKG-EeWo4MryxFK7EQ" name="QSIZE" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_tpIIMaG-EeWo4MryxFK7EQ" value="10"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_tpIIMqG-EeWo4MryxFK7EQ" name="" type="_tnLAYKG-EeWo4MryxFK7EQ" association="_tphw0aG-EeWo4MryxFK7EQ"/>
+          <ownedAttribute xmi:id="_tpIvQaG-EeWo4MryxFK7EQ" name="pool" type="_toM7IaG-EeWo4MryxFK7EQ" isReadOnly="true" association="_tpiX4aG-EeWo4MryxFK7EQ"/>
+          <interfaceRealization xmi:id="_toz_IKG-EeWo4MryxFK7EQ" client="_tm8W4KG-EeWo4MryxFK7EQ" supplier="_tot4gKG-EeWo4MryxFK7EQ" contract="_tot4gKG-EeWo4MryxFK7EQ"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpYm4KG-EeWo4MryxFK7EQ" name="Server" specification="_toOJQaG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpYm4aG-EeWo4MryxFK7EQ" name="votingRound" type="_tnLAYKG-EeWo4MryxFK7EQ"/>
+            <ownedParameter xmi:id="_tpYm4qG-EeWo4MryxFK7EQ" type="_tm8W4KG-EeWo4MryxFK7EQ" direction="return">
+              <name xsi:nil="true"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>this. = votingRound;
+		this.pool = new ThreadPoolExecutor(NTHREADS, NTHREADS, 50000L, TimeUnit.MILLISECONDS,
+				new LinkedBlockingQueue&lt;Runnable>(QSIZE));
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpYm46G-EeWo4MryxFK7EQ" name="run" specification="_tm9lAKG-EeWo4MryxFK7EQ">
+            <language>java</language>
+            <body>try {
+			ServerSocket serv = new ServerSocket(8080);
+			pool.setRejectedExecutionHandler(new ThreadPoolExecutor.CallerRunsPolicy());
+			for (;;) {
+				Socket incomingConnectionSock = serv.accept();
+				SocketAddress socketAddress = incomingConnectionSock.getRemoteSocketAddress();
+				InetSocketAddress inetSocketAddress = (InetSocketAddress) socketAddress;
+				String ip = inetSocketAddress.getAddress().toString();
+				ClientRequest clientRequest = new ClientRequest(&quot;Client&quot; + String.valueOf(i),incomingConnectionSock,,ip);
+				pool.submit(clientRequest);
+				DateFormat dateFormat = new SimpleDateFormat(&quot;dd/mm/yyyy HH:mm:ss&quot;);
+				Date dateConnection = new Date();
+				this..addLogs(clientRequest.getName() + &quot; (IP: '&quot; + ip +&quot;')&quot; + &quot; connected at &quot; + dateFormat.format(dateConnection));
+				i++;
+			}
+			
+
+		} catch (Exception ex) {
+			System.out.println(ex);
+		}
+		
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpYm5KG-EeWo4MryxFK7EQ" name="getVotingRound" specification="_tm9lBKG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpYm5aG-EeWo4MryxFK7EQ" type="_tnLAYKG-EeWo4MryxFK7EQ" direction="return">
+              <name xsi:nil="true"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return this.;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_tm9lAKG-EeWo4MryxFK7EQ" name="run" method="_tpYm46G-EeWo4MryxFK7EQ"/>
+          <ownedOperation xmi:id="_tm9lBKG-EeWo4MryxFK7EQ" name="getVotingRound" method="_tpYm5KG-EeWo4MryxFK7EQ">
+            <ownedComment xmi:id="_tpdfYqG-EeWo4MryxFK7EQ">
+              <body>Method to get the VotingRound object of this server.
+	 * @return</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_toOwU6G-EeWo4MryxFK7EQ" type="_tnLAYKG-EeWo4MryxFK7EQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_toOJQaG-EeWo4MryxFK7EQ" name="Server" method="_tpYm4KG-EeWo4MryxFK7EQ">
+            <eAnnotations xmi:id="_toOwUKG-EeWo4MryxFK7EQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_toOwUaG-EeWo4MryxFK7EQ" key="create"/>
+            </eAnnotations>
+            <ownedComment xmi:id="_tpdfYaG-EeWo4MryxFK7EQ">
+              <body>Constructor of a Server
+	 * @param votingRound</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_toOJQqG-EeWo4MryxFK7EQ" name="votingRound" type="_tnLAYKG-EeWo4MryxFK7EQ"/>
+            <ownedParameter xmi:id="_toOwUqG-EeWo4MryxFK7EQ" type="_tm8W4KG-EeWo4MryxFK7EQ" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tnABQKG-EeWo4MryxFK7EQ" name="ServerGUIController">
+          <ownedAttribute xmi:id="_tpJWUKG-EeWo4MryxFK7EQ" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_tpJWUqG-EeWo4MryxFK7EQ" name="serv" type="_tm8W4KG-EeWo4MryxFK7EQ" association="_tpi-8aG-EeWo4MryxFK7EQ"/>
+          <ownedAttribute xmi:id="_tpJ9YaG-EeWo4MryxFK7EQ" name="BtnAdd" visibility="private" type="_toa9kaG-EeWo4MryxFK7EQ" association="_tpi-9KG-EeWo4MryxFK7EQ"/>
+          <ownedAttribute xmi:id="_tpJ9ZaG-EeWo4MryxFK7EQ" name="BtnDelete" visibility="private" type="_toa9kaG-EeWo4MryxFK7EQ" association="_tpjmAqG-EeWo4MryxFK7EQ"/>
+          <ownedAttribute xmi:id="_tpKkc6G-EeWo4MryxFK7EQ" name="BtnStart" visibility="private" type="_toa9kaG-EeWo4MryxFK7EQ" association="_tpkNEaG-EeWo4MryxFK7EQ"/>
+          <ownedAttribute xmi:id="_tpLLgqG-EeWo4MryxFK7EQ" name="BtnOpen" visibility="private" type="_toa9kaG-EeWo4MryxFK7EQ" association="_tpk0IKG-EeWo4MryxFK7EQ"/>
+          <ownedAttribute xmi:id="_tpLykKG-EeWo4MryxFK7EQ" name="BtnClose" visibility="private" type="_toa9kaG-EeWo4MryxFK7EQ" association="_tpk0I6G-EeWo4MryxFK7EQ"/>
+          <ownedAttribute xmi:id="_tpMZoKG-EeWo4MryxFK7EQ" name="BtnEnd" visibility="private" type="_toa9kaG-EeWo4MryxFK7EQ" association="_tplbMaG-EeWo4MryxFK7EQ"/>
+          <ownedAttribute xmi:id="_tpMZpKG-EeWo4MryxFK7EQ" name="LblHighestVote" visibility="private" type="_tobkoaG-EeWo4MryxFK7EQ" association="_tpmCQaG-EeWo4MryxFK7EQ"/>
+          <ownedAttribute xmi:id="_tpNAs6G-EeWo4MryxFK7EQ" name="TxtAreaLogs" visibility="private" type="_todZ0KG-EeWo4MryxFK7EQ" association="_tpmCRKG-EeWo4MryxFK7EQ"/>
+          <ownedAttribute xmi:id="_tpNnw6G-EeWo4MryxFK7EQ" name="ListviewNames" visibility="private" type="_tocLsaG-EeWo4MryxFK7EQ" association="_tpmpUqG-EeWo4MryxFK7EQ"/>
+          <ownedAttribute xmi:id="_tpO146G-EeWo4MryxFK7EQ" name="TxtFieldName" visibility="private" type="_todZ0qG-EeWo4MryxFK7EQ" association="_tpnQYaG-EeWo4MryxFK7EQ"/>
+          <ownedAttribute xmi:id="_tpPc86G-EeWo4MryxFK7EQ" name="ChartVotes" visibility="private" type="_toWsIaG-EeWo4MryxFK7EQ" association="_tpnQZKG-EeWo4MryxFK7EQ"/>
+          <ownedAttribute xmi:id="_tpQrEKG-EeWo4MryxFK7EQ" name="xAxis" visibility="private" type="_toXTMaG-EeWo4MryxFK7EQ" association="_tpn3caG-EeWo4MryxFK7EQ"/>
+          <ownedAttribute xmi:id="_tpRSIqG-EeWo4MryxFK7EQ" name="listItems" visibility="package" isLeaf="true" type="_toU28aG-EeWo4MryxFK7EQ" isReadOnly="true" association="_tpoegaG-EeWo4MryxFK7EQ">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_tpR5MKG-EeWo4MryxFK7EQ" value="FXCollections.observableArrayList()"/>
+          </ownedAttribute>
+          <interfaceRealization xmi:id="_to1NQKG-EeWo4MryxFK7EQ" client="_tnABQKG-EeWo4MryxFK7EQ" supplier="_toWFEaG-EeWo4MryxFK7EQ" contract="_toWFEaG-EeWo4MryxFK7EQ"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpZN8KG-EeWo4MryxFK7EQ" name="addAction" specification="_to2bYKG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpZN8aG-EeWo4MryxFK7EQ" name="action" type="_toE_U6G-EeWo4MryxFK7EQ"/>
+            <language>java</language>
+            <body>if (!TxtFieldName.getText().isEmpty()) {
+			if (!listItems.contains(TxtFieldName.getText())) {
+				listItems.add(TxtFieldName.getText());
+				TxtFieldName.clear();
+			}
+		}
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpZN8qG-EeWo4MryxFK7EQ" name="deleteAction" specification="_to3Cc6G-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpZN86G-EeWo4MryxFK7EQ" name="action" type="_toE_U6G-EeWo4MryxFK7EQ"/>
+            <language>java</language>
+            <body>int selectedItem = ListviewNames.getSelectionModel().getSelectedIndex();
+		listItems.remove(selectedItem);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpZN9KG-EeWo4MryxFK7EQ" name="startAction" specification="_to3pg6G-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpZN9aG-EeWo4MryxFK7EQ" name="action" type="_toE_U6G-EeWo4MryxFK7EQ"/>
+            <language>java</language>
+            <body>if (listItems.size() &lt;= 1 || listItems.size() > 10) {
+			Alert alertList = new Alert(AlertType.ERROR, &quot;Your list of nominated should have a minimum of 2 candidates and a maximum of 10&quot;);
+			alertList.getDialogPane().getChildren().stream().filter(node -> node instanceof Label)
+					.forEach(node -> ((Label) node).setMinHeight(Region.USE_PREF_SIZE));
+			alertList.showAndWait();
+		} else {
+			
+			// Start voting round
+			List&lt;Nominated> listNominated = new ArrayList&lt;Nominated>();
+			for (String nominatedNames : listItems) {
+				listNominated.add(new Nominated(nominatedNames));
+			}
+			VotingRound votingRound = new VotingRound(listNominated);
+			
+			// Start server
+			this.serv = new Server(votingRound);
+			Thread threadServ = new Thread(serv);
+			threadServ.start();
+			Alert infoServ = new Alert(AlertType.INFORMATION, &quot;Server started. You still have to start the voting round.&quot;);
+			infoServ.getDialogPane().getChildren().stream().filter(node -> node instanceof Label)
+					.forEach(node -> ((Label) node).setMinHeight(Region.USE_PREF_SIZE));
+			infoServ.show();
+			
+			BtnOpen.setDisable(false);
+			BtnEnd.setDisable(false);
+			
+			xAxis.setCategories(listItems);
+		}
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpZN9qG-EeWo4MryxFK7EQ" name="openAction" specification="_to4Qk6G-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpZN96G-EeWo4MryxFK7EQ" name="action" type="_toE_U6G-EeWo4MryxFK7EQ"/>
+            <language>java</language>
+            <body>this.serv.getVotingRound().setOpen(true);
+		BtnClose.setDisable(false);
+	
+		DateFormat dateFormat = new SimpleDateFormat(&quot;dd/MM/yyy HH:mm:ss&quot;);
+		Date date = new Date();
+		this.serv..setDateOpening(date);
+		this.serv..addLogs(&quot;Voting round opened at: &quot; + dateFormat.format(date));
+		
+		Alert infoOpen = new Alert(AlertType.INFORMATION, &quot;Voting Round is now open. Clients can vote.&quot;);
+		infoOpen.getDialogPane().getChildren().stream().filter(node -> node instanceof Label)
+				.forEach(node -> ((Label) node).setMinHeight(Region.USE_PREF_SIZE));
+		infoOpen.showAndWait();
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpZN-KG-EeWo4MryxFK7EQ" name="closeAction" specification="_to43o6G-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpZN-aG-EeWo4MryxFK7EQ" name="action" type="_toE_U6G-EeWo4MryxFK7EQ"/>
+            <language>java</language>
+            <body>this.serv.getVotingRound().setOpen(false);
+		
+		
+		DateFormat dateFormat = new SimpleDateFormat(&quot;dd/MM/yyy HH:mm:ss&quot;);
+		Date date = new Date();
+		this.serv..setDateEnding(date);
+		this.serv..addLogs(&quot;Voting round closed at: &quot; + dateFormat.format(date));
+		
+		Alert infoClose = new Alert(AlertType.INFORMATION, &quot;Voting Round is now closed.&quot;);
+		infoClose.getDialogPane().getChildren().stream().filter(node -> node instanceof Label)
+				.forEach(node -> ((Label) node).setMinHeight(Region.USE_PREF_SIZE));
+		infoClose.showAndWait();
+		
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpZ1AKG-EeWo4MryxFK7EQ" name="endAction" specification="_to6FwKG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpZ1AaG-EeWo4MryxFK7EQ" name="action" type="_toE_U6G-EeWo4MryxFK7EQ"/>
+            <language>java</language>
+            <body>this.serv.getPool().shutdownNow();
+		Stage stage = (Stage) BtnEnd.getScene().getWindow();
+	    stage.close();
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpZ1AqG-EeWo4MryxFK7EQ" name="initialize" specification="_to6s0qG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpZ1A6G-EeWo4MryxFK7EQ" name="location" type="_toP-cKG-EeWo4MryxFK7EQ"/>
+            <ownedParameter xmi:id="_tpZ1BKG-EeWo4MryxFK7EQ" name="resources" type="_toSasKG-EeWo4MryxFK7EQ"/>
+            <language>java</language>
+            <body>ListviewNames.setItems(listItems);
+
+		// Disable buttons at start
+		BtnAdd.setDisable(true);
+		BtnDelete.setDisable(true);
+		BtnOpen.setDisable(true);
+		BtnClose.setDisable(true);
+		BtnEnd.setDisable(true);
+
+		// Add a ChangeListener to TextField to look for change in focus
+		TxtFieldName.focusedProperty().addListener(new ChangeListener&lt;Boolean>() {
+			public void changed(ObservableValue&lt;? extends Boolean> observable, Boolean oldValue, Boolean newValue) {
+				if (TxtFieldName.isFocused()) {
+					BtnAdd.setDisable(false);
+
+				}
+				if (listItems.isEmpty()) {
+					BtnDelete.setDisable(true);
+				}
+			}
+		});
+
+		// Add a KeyPressed event to the TxtFieldName
+		TxtFieldName.setOnKeyPressed(new EventHandler&lt;KeyEvent>() {
+			@Override
+			public void handle(KeyEvent ke) {
+				if (ke.getCode().equals(KeyCode.ENTER)) {
+					if (!TxtFieldName.getText().isEmpty()) {
+						if (!listItems.contains(TxtFieldName.getText())) {
+							listItems.add(TxtFieldName.getText());
+							TxtFieldName.clear();
+						}
+					}
+				}
+			}
+		});
+
+		// Add a ChangeListener to ListView to look for change in focus
+		ListviewNames.focusedProperty().addListener(new ChangeListener&lt;Boolean>() {
+			public void changed(ObservableValue&lt;? extends Boolean> observable, Boolean oldValue, Boolean newValue) {
+				if (ListviewNames.isFocused()) {
+					BtnDelete.setDisable(false);
+				}
+				if (listItems.isEmpty())
+					BtnDelete.setDisable(true);
+			}
+		});
+		
+		// Add a Listener on the text area to scroll to the bottom on each new text
+		TxtAreaLogs.textProperty().addListener(new ChangeListener&lt;Object>() {
+		    @Override
+		    public void changed(ObservableValue&lt;?> observable, Object oldValue,
+		            Object newValue) {
+		    	TxtAreaLogs.setScrollTop(Double.MAX_VALUE);
+		    }
+		});	
+		
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpZ1BaG-EeWo4MryxFK7EQ" name="setDataChart" specification="_to768KG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpZ1BqG-EeWo4MryxFK7EQ" name="listNominated" type="_toRzoKG-EeWo4MryxFK7EQ"/>
+            <language>java</language>
+            <body>XYChart.Series&lt;String, Integer> series = new XYChart.Series&lt;>();
+		for (Nominated nominated : listNominated) {
+			series.getData().add(new XYChart.Data&lt;>(nominated.getName(),nominated.getNumberOfVote()));
+		}
+		ChartVotes.getData().clear();
+		ChartVotes.getData().add(series);
+		ChartVotes.setAnimated(false);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpZ1B6G-EeWo4MryxFK7EQ" name="refresh" specification="_tnCdgKG-EeWo4MryxFK7EQ">
+            <language>java</language>
+            <body>if(this.serv != null){
+			LblHighestVote.setText(this.serv..getNameOfHighestVote());
+			TxtAreaLogs.appendText(this.serv..getLogs());
+			this.setDataChart(this.serv..listNominated);
+		}
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_tnCdgKG-EeWo4MryxFK7EQ" name="refresh" method="_tpZ1B6G-EeWo4MryxFK7EQ">
+            <ownedComment xmi:id="_tpdfZKG-EeWo4MryxFK7EQ">
+              <body>Method to refresh the GUI data (logs,chart...)</body>
+            </ownedComment>
+          </ownedOperation>
+          <ownedOperation xmi:id="_to2bYKG-EeWo4MryxFK7EQ" name="addAction" visibility="private" method="_tpZN8KG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_to2bYaG-EeWo4MryxFK7EQ" name="action" type="_toE_U6G-EeWo4MryxFK7EQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_to3Cc6G-EeWo4MryxFK7EQ" name="deleteAction" visibility="private" method="_tpZN8qG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_to3CdKG-EeWo4MryxFK7EQ" name="action" type="_toE_U6G-EeWo4MryxFK7EQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_to3pg6G-EeWo4MryxFK7EQ" name="startAction" visibility="private" method="_tpZN9KG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_to3phKG-EeWo4MryxFK7EQ" name="action" type="_toE_U6G-EeWo4MryxFK7EQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_to4Qk6G-EeWo4MryxFK7EQ" name="openAction" visibility="private" method="_tpZN9qG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_to4QlKG-EeWo4MryxFK7EQ" name="action" type="_toE_U6G-EeWo4MryxFK7EQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_to43o6G-EeWo4MryxFK7EQ" name="closeAction" visibility="private" method="_tpZN-KG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_to43pKG-EeWo4MryxFK7EQ" name="action" type="_toE_U6G-EeWo4MryxFK7EQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_to6FwKG-EeWo4MryxFK7EQ" name="endAction" visibility="private" method="_tpZ1AKG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_to6FwaG-EeWo4MryxFK7EQ" name="action" type="_toE_U6G-EeWo4MryxFK7EQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_to6s0qG-EeWo4MryxFK7EQ" name="initialize" method="_tpZ1AqG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_to6s06G-EeWo4MryxFK7EQ" name="location" type="_toP-cKG-EeWo4MryxFK7EQ"/>
+            <ownedParameter xmi:id="_to6s1KG-EeWo4MryxFK7EQ" name="resources" type="_toSasKG-EeWo4MryxFK7EQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_to768KG-EeWo4MryxFK7EQ" name="setDataChart" method="_tpZ1BaG-EeWo4MryxFK7EQ">
+            <ownedComment xmi:id="_tpdfY6G-EeWo4MryxFK7EQ">
+              <body>Method fill with data the BarChart
+	 * @param listNominated : list of nominated to display in the chart</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_to768aG-EeWo4MryxFK7EQ" name="listNominated" type="_toRzoKG-EeWo4MryxFK7EQ"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tnLAYKG-EeWo4MryxFK7EQ" name="VotingRound">
+          <ownedComment xmi:id="_tpdfZaG-EeWo4MryxFK7EQ">
+            <body>Class which represents a voting round
+@author Cyril
+ *</body>
+          </ownedComment>
+          <ownedAttribute xmi:id="_tpTHUKG-EeWo4MryxFK7EQ" name="dateOpen" visibility="private" type="_toLF8aG-EeWo4MryxFK7EQ"/>
+          <ownedAttribute xmi:id="_tpTuYKG-EeWo4MryxFK7EQ" name="dateClose" visibility="private" type="_toLF8aG-EeWo4MryxFK7EQ">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_tpTuYaG-EeWo4MryxFK7EQ" value="null"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_tpTuY6G-EeWo4MryxFK7EQ" name="vote">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_tpUVcaG-EeWo4MryxFK7EQ" name="open" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_tpUVcqG-EeWo4MryxFK7EQ" value="false"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_tpUVc6G-EeWo4MryxFK7EQ" name="listNominated" type="_tm5TkKG-EeWo4MryxFK7EQ" isOrdered="true" association="_tpoehKG-EeWo4MryxFK7EQ">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tpUVdKG-EeWo4MryxFK7EQ" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_tpU8gaG-EeWo4MryxFK7EQ" name="listIPAddress" isOrdered="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tpU8gqG-EeWo4MryxFK7EQ" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_tpU8hKG-EeWo4MryxFK7EQ" name="listLogs" isOrdered="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tpU8haG-EeWo4MryxFK7EQ" value="*"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpacEKG-EeWo4MryxFK7EQ" name="VotingRound" specification="_to-XMKG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpacEaG-EeWo4MryxFK7EQ" name="listNom" type="_toRzoKG-EeWo4MryxFK7EQ"/>
+            <ownedParameter xmi:id="_tpacEqG-EeWo4MryxFK7EQ" type="_tnLAYKG-EeWo4MryxFK7EQ" direction="return"/>
+            <language>java</language>
+            <body>this.listNominated = new ArrayList&lt;Nominated>(listNom);
+		this.listIPAddress = new ArrayList&lt;String>();
+		this.listLogs = new ArrayList&lt;String>();
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpacE6G-EeWo4MryxFK7EQ" name="setOpen" specification="_tnMOgKG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpacFKG-EeWo4MryxFK7EQ" name="status">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>this.open = status;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpacFaG-EeWo4MryxFK7EQ" name="getDateOpening" specification="_tnM1kKG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpacFqG-EeWo4MryxFK7EQ" type="_toLF8aG-EeWo4MryxFK7EQ" direction="return"/>
+            <language>java</language>
+            <body>return this.dateOpen;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpacF6G-EeWo4MryxFK7EQ" name="getDateEnding" specification="_tnM1kaG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpacGKG-EeWo4MryxFK7EQ" type="_toLF8aG-EeWo4MryxFK7EQ" direction="return"/>
+            <language>java</language>
+            <body>return this.dateClose;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpacGaG-EeWo4MryxFK7EQ" name="setDateOpening" specification="_tpAMYKG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpacGqG-EeWo4MryxFK7EQ" name="d" type="_toLF8aG-EeWo4MryxFK7EQ"/>
+            <language>java</language>
+            <body>this.dateOpen = d;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpbDIKG-EeWo4MryxFK7EQ" name="setDateEnding" specification="_tpAMYqG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpbDIaG-EeWo4MryxFK7EQ" name="d" type="_toLF8aG-EeWo4MryxFK7EQ"/>
+            <language>java</language>
+            <body>this.dateClose = d;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpbDIqG-EeWo4MryxFK7EQ" name="addVote" specification="_tnNcoKG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpbDI6G-EeWo4MryxFK7EQ" name="nominatedName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>for (Nominated nominated : listNominated){
+			if((nominated.getName().compareToIgnoreCase(nominatedName)) == 0){
+				nominated.incrementVote();
+			}
+		}
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpbDJKG-EeWo4MryxFK7EQ" name="showListNominated" specification="_tnODsKG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpbDJaG-EeWo4MryxFK7EQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>StringBuilder sb = new StringBuilder();
+		sb.append(&quot;Nominated for this round are: \n&quot;);
+		for (Nominated nominated : listNominated) {
+			sb.append(&quot; - &quot; + nominated + &quot;\n&quot;);
+		}
+		
+		return sb.toString();
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpbDJqG-EeWo4MryxFK7EQ" name="askForVote" specification="_tpAzcKG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpbDJ6G-EeWo4MryxFK7EQ" name="in" type="_tn-RoKG-EeWo4MryxFK7EQ"/>
+            <ownedParameter xmi:id="_tpbDKKG-EeWo4MryxFK7EQ" name="out" type="_tn_fwaG-EeWo4MryxFK7EQ"/>
+            <ownedParameter xmi:id="_tpbDKaG-EeWo4MryxFK7EQ" name="clientRequest" type="_tmvikKG-EeWo4MryxFK7EQ"/>
+            <ownedParameter xmi:id="_tpbDKqG-EeWo4MryxFK7EQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>out.println(&quot;Enter the name of the nominated to vote for or 'Exit' to quit the server: &quot;);
+     try{
+     	vote = in.readLine();        	
+     	while(!vote.isEmpty()){
+         	if(vote.trim().equals(&quot;Exit&quot;)){
+         		this.vote=&quot;Exit&quot;;
+         		return true;
+         	}
+         	else{
+         		if(verifyVote(vote)){
+         			out.println(&quot;Confirm your vote by enter it again: &quot;);
+         			String voteConfirm = in.readLine();
+         			if(confirmVote(vote, voteConfirm)){
+         				//if(verifyIP(clientRequest.getIp())){ // this line to comment if you don't want to verify IP
+	            				this.addVote(vote);
+	            				this.addIP(clientRequest.getIp());
+	            				out.println(&quot;Your nomination is for: &quot; + vote + &quot;\n&quot;);
+	            				Date currentDate = new Date();
+	            				DateFormat dateFormat = new SimpleDateFormat(&quot;dd/MM/yyyy HH:mm:ss&quot;);
+	            				this.addLogs(&quot;Nomination received from &quot; + clientRequest.getName() + &quot;: '&quot; + vote + &quot;' at &quot; + dateFormat.format(currentDate));
+	            				out.println(&quot;Highest vote cast: &quot; + this.getHighestVote() + &quot; for: &quot; + this.getNameOfHighestVote() + &quot;at &quot; + dateFormat.format(currentDate) + &quot;\n&quot;);
+         				//} // this too
+         				//else{ // and this block too.
+         					//out.println(&quot;Your vote is rejected, you have already voted in this round ! \n&quot;);
+         				//}
+     				}
+         			else{
+         				out.println(&quot;You wrote a different vote !&quot;);
+         				return false;
+         			}
+         		}
+         		else{
+         			out.println(&quot;Your vost is not in the list of householders ! \n&quot;);
+         			return false;
+         		}
+         		return true;	
+				}
+         		
+     	}
+     	return this.askForVote(in, out, clientRequest);  	
+
+     }
+     
+     catch (Exception ex)
+     {
+     	System.out.println(ex);
+     }
+		return false;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpbDK6G-EeWo4MryxFK7EQ" name="verifyVote" specification="_tnOqwKG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpbDLKG-EeWo4MryxFK7EQ" name="nominatedName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_tpbDLaG-EeWo4MryxFK7EQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return this.listNominated.stream().anyMatch(nominated -> (nominated.getName().compareToIgnoreCase(nominatedName)) == 0);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpbqMKG-EeWo4MryxFK7EQ" name="confirmVote" specification="_tnPR0aG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpbqMaG-EeWo4MryxFK7EQ" name="vote1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_tpbqMqG-EeWo4MryxFK7EQ" name="vote2">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_tpbqM6G-EeWo4MryxFK7EQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>if(vote1.compareToIgnoreCase(vote2) == 0)
+			return true;
+		else
+			return false;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpbqNKG-EeWo4MryxFK7EQ" name="getHighestVote" specification="_tnP44qG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpbqNaG-EeWo4MryxFK7EQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>List&lt;Integer> listVotes = new ArrayList&lt;Integer>();
+		
+		for (Nominated nominated : listNominated) {
+			listVotes.add(nominated.getNumberOfVote());
+		}
+		return Collections.max(listVotes);
+		
+		
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpbqNqG-EeWo4MryxFK7EQ" name="getNameOfHighestVote" specification="_tnP45qG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpbqN6G-EeWo4MryxFK7EQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>String result = &quot;&quot;;
+		for (Nominated nominated : listNominated) {
+			if(nominated.getNumberOfVote() != 0)
+			{if(nominated.getNumberOfVote() == this.getHighestVote()){
+				result += nominated.getName();
+				result += &quot; &quot;;
+			}}
+		}
+		return result;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpcRQKG-EeWo4MryxFK7EQ" name="addIP" specification="_tnQf86G-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpcRQaG-EeWo4MryxFK7EQ" name="ip">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>this.listIPAddress.add(ip);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpcRQqG-EeWo4MryxFK7EQ" name="verifyIP" specification="_tnQf96G-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpcRQ6G-EeWo4MryxFK7EQ" name="ip">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_tpcRRKG-EeWo4MryxFK7EQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>for (String  ipKnown : listIPAddress) {
+			if(ipKnown.compareTo(ip) == 0)
+				return false;
+		}
+		return true;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpcRRaG-EeWo4MryxFK7EQ" name="getLogs" specification="_tnRuEKG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpcRRqG-EeWo4MryxFK7EQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>StringBuilder sb = new StringBuilder();
+		if(!listLogs.isEmpty()){
+			for (String string : listLogs) {
+				sb.append(string);
+				sb.append(&quot;\n&quot;);
+			}
+		}
+		listLogs.clear();
+		return sb.toString();
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_tpcRR6G-EeWo4MryxFK7EQ" name="addLogs" specification="_tnRuEqG-EeWo4MryxFK7EQ">
+            <ownedParameter xmi:id="_tpcRSKG-EeWo4MryxFK7EQ" name="string">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>this.listLogs.add(string);
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_tnMOgKG-EeWo4MryxFK7EQ" name="setOpen" method="_tpacE6G-EeWo4MryxFK7EQ">
+            <ownedComment xmi:id="_tpdfZ6G-EeWo4MryxFK7EQ">
+              <body>Setter to change the value of the boolean 'opened'
+	 * I.e. open or close the voting round
+	 * @param status : the boolean for closing or opening the voting round.</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_tnMOgaG-EeWo4MryxFK7EQ" name="status">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_tnM1kKG-EeWo4MryxFK7EQ" name="getDateOpening" method="_tpacFaG-EeWo4MryxFK7EQ">
+            <ownedComment xmi:id="_tpeGcKG-EeWo4MryxFK7EQ">
+              <body>Getter on the opening date of the round
+	 * @return Date opening</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_to_lUaG-EeWo4MryxFK7EQ" type="_toLF8aG-EeWo4MryxFK7EQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_tnM1kaG-EeWo4MryxFK7EQ" name="getDateEnding" method="_tpacF6G-EeWo4MryxFK7EQ">
+            <ownedComment xmi:id="_tpeGcaG-EeWo4MryxFK7EQ">
+              <body>Getter on the ending date of the round
+	 * @return Date ending</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_to_lUqG-EeWo4MryxFK7EQ" type="_toLF8aG-EeWo4MryxFK7EQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_tnNcoKG-EeWo4MryxFK7EQ" name="addVote" method="_tpbDIqG-EeWo4MryxFK7EQ">
+            <eAnnotations xmi:id="_tnNcoqG-EeWo4MryxFK7EQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_tnNco6G-EeWo4MryxFK7EQ" key="synchronized"/>
+            </eAnnotations>
+            <ownedComment xmi:id="_tpeGdKG-EeWo4MryxFK7EQ">
+              <body>Method which add a vote to a given Nominated name
+	 * @param nominated : the name of the nominated to vote for</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_tnNcoaG-EeWo4MryxFK7EQ" name="nominatedName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_tnODsKG-EeWo4MryxFK7EQ" name="showListNominated" method="_tpbDJKG-EeWo4MryxFK7EQ">
+            <ownedComment xmi:id="_tpeGdaG-EeWo4MryxFK7EQ">
+              <body>Method which return a Stringbuilder to display the list of Nominated</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_tnODsaG-EeWo4MryxFK7EQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_tnOqwKG-EeWo4MryxFK7EQ" name="verifyVote" visibility="private" method="_tpbDK6G-EeWo4MryxFK7EQ">
+            <ownedComment xmi:id="_tpeGd6G-EeWo4MryxFK7EQ">
+              <body>Method to verify that the Nominated whom the name is given in parameter, is in the list of Nominated of this round.
+	 * @param nominatedName
+	 * @return</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_tnOqwaG-EeWo4MryxFK7EQ" name="nominatedName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_tnPR0KG-EeWo4MryxFK7EQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_tnPR0aG-EeWo4MryxFK7EQ" name="confirmVote" visibility="private" method="_tpbqMKG-EeWo4MryxFK7EQ">
+            <ownedComment xmi:id="_tpeGeKG-EeWo4MryxFK7EQ">
+              <body>Method to confirm the vote of the client
+	 * @param vote1
+	 * @param vote2
+	 * @return</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_tnPR0qG-EeWo4MryxFK7EQ" name="vote1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_tnP44KG-EeWo4MryxFK7EQ" name="vote2">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_tnP44aG-EeWo4MryxFK7EQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_tnP44qG-EeWo4MryxFK7EQ" name="getHighestVote" method="_tpbqNKG-EeWo4MryxFK7EQ">
+            <eAnnotations xmi:id="_tnP446G-EeWo4MryxFK7EQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_tnP45KG-EeWo4MryxFK7EQ" key="synchronized"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_tnP45aG-EeWo4MryxFK7EQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_tnP45qG-EeWo4MryxFK7EQ" name="getNameOfHighestVote" method="_tpbqNqG-EeWo4MryxFK7EQ">
+            <eAnnotations xmi:id="_tnQf8KG-EeWo4MryxFK7EQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_tnQf8aG-EeWo4MryxFK7EQ" key="synchronized"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_tnQf8qG-EeWo4MryxFK7EQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_tnQf86G-EeWo4MryxFK7EQ" name="addIP" method="_tpcRQKG-EeWo4MryxFK7EQ">
+            <eAnnotations xmi:id="_tnQf9aG-EeWo4MryxFK7EQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_tnQf9qG-EeWo4MryxFK7EQ" key="synchronized"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_tnQf9KG-EeWo4MryxFK7EQ" name="ip">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_tnQf96G-EeWo4MryxFK7EQ" name="verifyIP" method="_tpcRQqG-EeWo4MryxFK7EQ">
+            <eAnnotations xmi:id="_tnRHAaG-EeWo4MryxFK7EQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_tnRHAqG-EeWo4MryxFK7EQ" key="synchronized"/>
+            </eAnnotations>
+            <ownedComment xmi:id="_tpeGeaG-EeWo4MryxFK7EQ">
+              <body>Method to check if an IP is already in the IPAddresses known
+	 * @param ip to check
+	 * @return true if it's a unknown IP, else false;</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_tnRHAKG-EeWo4MryxFK7EQ" name="ip">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_tnRHA6G-EeWo4MryxFK7EQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_tnRuEKG-EeWo4MryxFK7EQ" name="getLogs" method="_tpcRRaG-EeWo4MryxFK7EQ">
+            <ownedComment xmi:id="_tpeGeqG-EeWo4MryxFK7EQ">
+              <body>Getter on the list of Logs to display it
+	 * @return logs contained in the list as a String.</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_tnRuEaG-EeWo4MryxFK7EQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_tnRuEqG-EeWo4MryxFK7EQ" name="addLogs" method="_tpcRR6G-EeWo4MryxFK7EQ">
+            <ownedComment xmi:id="_tpeGe6G-EeWo4MryxFK7EQ">
+              <body>Method to add string in list of logs
+	 * @param string</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_tnSVIKG-EeWo4MryxFK7EQ" name="string">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_to-XMKG-EeWo4MryxFK7EQ" name="VotingRound" method="_tpacEKG-EeWo4MryxFK7EQ">
+            <eAnnotations xmi:id="_to--QaG-EeWo4MryxFK7EQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_to--QqG-EeWo4MryxFK7EQ" key="create"/>
+            </eAnnotations>
+            <ownedComment xmi:id="_tpdfZqG-EeWo4MryxFK7EQ">
+              <body>Constructor of a VotingRound
+	 * @param listNom : the list of Nominated in this round as a given parameter here as the administrator set it up in the GUI</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_to--QKG-EeWo4MryxFK7EQ" name="listNom" type="_toRzoKG-EeWo4MryxFK7EQ"/>
+            <ownedParameter xmi:id="_to--Q6G-EeWo4MryxFK7EQ" type="_tnLAYKG-EeWo4MryxFK7EQ" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_tpAMYKG-EeWo4MryxFK7EQ" name="setDateOpening" method="_tpacGaG-EeWo4MryxFK7EQ">
+            <ownedComment xmi:id="_tpeGcqG-EeWo4MryxFK7EQ">
+              <body>Setter on the opening date of the round
+	 * @param d date</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_tpAMYaG-EeWo4MryxFK7EQ" name="d" type="_toLF8aG-EeWo4MryxFK7EQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_tpAMYqG-EeWo4MryxFK7EQ" name="setDateEnding" method="_tpbDIKG-EeWo4MryxFK7EQ">
+            <ownedComment xmi:id="_tpeGc6G-EeWo4MryxFK7EQ">
+              <body>Setter on the ending date of the round
+	 * @param d date</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_tpAMY6G-EeWo4MryxFK7EQ" name="d" type="_toLF8aG-EeWo4MryxFK7EQ"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_tpAzcKG-EeWo4MryxFK7EQ" name="askForVote" method="_tpbDJqG-EeWo4MryxFK7EQ">
+            <ownedComment xmi:id="_tpeGdqG-EeWo4MryxFK7EQ">
+              <body>Method which ask the client to vote and check some requirements
+	 * @param in
+	 * @param out
+	 * @return boolean : to respond with the ClientRequest when we need to end the connection with the server</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_tpAzcaG-EeWo4MryxFK7EQ" name="in" type="_tn-RoKG-EeWo4MryxFK7EQ"/>
+            <ownedParameter xmi:id="_tpAzcqG-EeWo4MryxFK7EQ" name="out" type="_tn_fwaG-EeWo4MryxFK7EQ"/>
+            <ownedParameter xmi:id="_tpAzc6G-EeWo4MryxFK7EQ" name="clientRequest" type="_tmvikKG-EeWo4MryxFK7EQ"/>
+            <ownedParameter xmi:id="_tpBagKG-EeWo4MryxFK7EQ" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tpgisKG-EeWo4MryxFK7EQ" name="" memberEnd="_tpgisaG-EeWo4MryxFK7EQ _tpEd0KG-EeWo4MryxFK7EQ">
+          <ownedEnd xmi:id="_tpgisaG-EeWo4MryxFK7EQ" name="" type="_tmvikKG-EeWo4MryxFK7EQ" association="_tpgisKG-EeWo4MryxFK7EQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tphJwaG-EeWo4MryxFK7EQ" name="" memberEnd="_tphJwqG-EeWo4MryxFK7EQ _tpFE4KG-EeWo4MryxFK7EQ">
+          <ownedEnd xmi:id="_tphJwqG-EeWo4MryxFK7EQ" name="" type="_tmvikKG-EeWo4MryxFK7EQ" association="_tphJwaG-EeWo4MryxFK7EQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tphw0aG-EeWo4MryxFK7EQ" name="" memberEnd="_tphw0qG-EeWo4MryxFK7EQ _tpIIMqG-EeWo4MryxFK7EQ">
+          <ownedEnd xmi:id="_tphw0qG-EeWo4MryxFK7EQ" name="" type="_tm8W4KG-EeWo4MryxFK7EQ" association="_tphw0aG-EeWo4MryxFK7EQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tpiX4aG-EeWo4MryxFK7EQ" name="" memberEnd="_tpiX4qG-EeWo4MryxFK7EQ _tpIvQaG-EeWo4MryxFK7EQ">
+          <ownedEnd xmi:id="_tpiX4qG-EeWo4MryxFK7EQ" name="" type="_tm8W4KG-EeWo4MryxFK7EQ" association="_tpiX4aG-EeWo4MryxFK7EQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tpi-8aG-EeWo4MryxFK7EQ" name="" memberEnd="_tpi-8qG-EeWo4MryxFK7EQ _tpJWUqG-EeWo4MryxFK7EQ">
+          <ownedEnd xmi:id="_tpi-8qG-EeWo4MryxFK7EQ" name="" type="_tnABQKG-EeWo4MryxFK7EQ" association="_tpi-8aG-EeWo4MryxFK7EQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tpi-9KG-EeWo4MryxFK7EQ" name="" memberEnd="_tpjmAKG-EeWo4MryxFK7EQ _tpJ9YaG-EeWo4MryxFK7EQ">
+          <ownedEnd xmi:id="_tpjmAKG-EeWo4MryxFK7EQ" name="" type="_tnABQKG-EeWo4MryxFK7EQ" association="_tpi-9KG-EeWo4MryxFK7EQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tpjmAqG-EeWo4MryxFK7EQ" name="" memberEnd="_tpjmA6G-EeWo4MryxFK7EQ _tpJ9ZaG-EeWo4MryxFK7EQ">
+          <ownedEnd xmi:id="_tpjmA6G-EeWo4MryxFK7EQ" name="" type="_tnABQKG-EeWo4MryxFK7EQ" association="_tpjmAqG-EeWo4MryxFK7EQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tpkNEaG-EeWo4MryxFK7EQ" name="" memberEnd="_tpkNEqG-EeWo4MryxFK7EQ _tpKkc6G-EeWo4MryxFK7EQ">
+          <ownedEnd xmi:id="_tpkNEqG-EeWo4MryxFK7EQ" name="" type="_tnABQKG-EeWo4MryxFK7EQ" association="_tpkNEaG-EeWo4MryxFK7EQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tpk0IKG-EeWo4MryxFK7EQ" name="" memberEnd="_tpk0IaG-EeWo4MryxFK7EQ _tpLLgqG-EeWo4MryxFK7EQ">
+          <ownedEnd xmi:id="_tpk0IaG-EeWo4MryxFK7EQ" name="" type="_tnABQKG-EeWo4MryxFK7EQ" association="_tpk0IKG-EeWo4MryxFK7EQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tpk0I6G-EeWo4MryxFK7EQ" name="" memberEnd="_tpk0JKG-EeWo4MryxFK7EQ _tpLykKG-EeWo4MryxFK7EQ">
+          <ownedEnd xmi:id="_tpk0JKG-EeWo4MryxFK7EQ" name="" type="_tnABQKG-EeWo4MryxFK7EQ" association="_tpk0I6G-EeWo4MryxFK7EQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tplbMaG-EeWo4MryxFK7EQ" name="" memberEnd="_tplbMqG-EeWo4MryxFK7EQ _tpMZoKG-EeWo4MryxFK7EQ">
+          <ownedEnd xmi:id="_tplbMqG-EeWo4MryxFK7EQ" name="" type="_tnABQKG-EeWo4MryxFK7EQ" association="_tplbMaG-EeWo4MryxFK7EQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tpmCQaG-EeWo4MryxFK7EQ" name="" memberEnd="_tpmCQqG-EeWo4MryxFK7EQ _tpMZpKG-EeWo4MryxFK7EQ">
+          <ownedEnd xmi:id="_tpmCQqG-EeWo4MryxFK7EQ" name="" type="_tnABQKG-EeWo4MryxFK7EQ" association="_tpmCQaG-EeWo4MryxFK7EQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tpmCRKG-EeWo4MryxFK7EQ" name="" memberEnd="_tpmpUKG-EeWo4MryxFK7EQ _tpNAs6G-EeWo4MryxFK7EQ">
+          <ownedEnd xmi:id="_tpmpUKG-EeWo4MryxFK7EQ" name="" type="_tnABQKG-EeWo4MryxFK7EQ" association="_tpmCRKG-EeWo4MryxFK7EQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tpmpUqG-EeWo4MryxFK7EQ" name="" memberEnd="_tpmpU6G-EeWo4MryxFK7EQ _tpNnw6G-EeWo4MryxFK7EQ">
+          <ownedEnd xmi:id="_tpmpU6G-EeWo4MryxFK7EQ" name="" type="_tnABQKG-EeWo4MryxFK7EQ" association="_tpmpUqG-EeWo4MryxFK7EQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tpnQYaG-EeWo4MryxFK7EQ" name="" memberEnd="_tpnQYqG-EeWo4MryxFK7EQ _tpO146G-EeWo4MryxFK7EQ">
+          <ownedEnd xmi:id="_tpnQYqG-EeWo4MryxFK7EQ" name="" type="_tnABQKG-EeWo4MryxFK7EQ" association="_tpnQYaG-EeWo4MryxFK7EQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tpnQZKG-EeWo4MryxFK7EQ" name="" memberEnd="_tpnQZaG-EeWo4MryxFK7EQ _tpPc86G-EeWo4MryxFK7EQ">
+          <ownedEnd xmi:id="_tpnQZaG-EeWo4MryxFK7EQ" name="" type="_tnABQKG-EeWo4MryxFK7EQ" association="_tpnQZKG-EeWo4MryxFK7EQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tpn3caG-EeWo4MryxFK7EQ" name="" memberEnd="_tpn3cqG-EeWo4MryxFK7EQ _tpQrEKG-EeWo4MryxFK7EQ">
+          <ownedEnd xmi:id="_tpn3cqG-EeWo4MryxFK7EQ" name="" type="_tnABQKG-EeWo4MryxFK7EQ" association="_tpn3caG-EeWo4MryxFK7EQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tpoegaG-EeWo4MryxFK7EQ" name="" memberEnd="_tpoegqG-EeWo4MryxFK7EQ _tpRSIqG-EeWo4MryxFK7EQ">
+          <ownedEnd xmi:id="_tpoegqG-EeWo4MryxFK7EQ" name="" type="_tnABQKG-EeWo4MryxFK7EQ" association="_tpoegaG-EeWo4MryxFK7EQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tpoehKG-EeWo4MryxFK7EQ" name="" memberEnd="_tpoehaG-EeWo4MryxFK7EQ _tpUVc6G-EeWo4MryxFK7EQ">
+          <ownedEnd xmi:id="_tpoehaG-EeWo4MryxFK7EQ" name="" type="_tnLAYKG-EeWo4MryxFK7EQ" association="_tpoehKG-EeWo4MryxFK7EQ"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_tmPzUKG-EeWo4MryxFK7EQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_tmPzUaG-EeWo4MryxFK7EQ" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_tn-RoKG-EeWo4MryxFK7EQ" name="BufferedReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tn-4saG-EeWo4MryxFK7EQ" name="InputStreamReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tn_fwaG-EeWo4MryxFK7EQ" name="PrintWriter"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_tmQaYKG-EeWo4MryxFK7EQ" name="net">
+        <packagedElement xmi:type="uml:Class" xmi:id="_toAG0aG-EeWo4MryxFK7EQ" name="Socket"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_toJQwKG-EeWo4MryxFK7EQ" name="InetSocketAddress"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_toJ30aG-EeWo4MryxFK7EQ" name="ServerSocket"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_toKe4aG-EeWo4MryxFK7EQ" name="SocketAddress"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_toP-cKG-EeWo4MryxFK7EQ" name="URL"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_tmQaYaG-EeWo4MryxFK7EQ" name="text">
+        <packagedElement xmi:type="uml:Class" xmi:id="_toAt4aG-EeWo4MryxFK7EQ" name="DateFormat"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_toBU8aG-EeWo4MryxFK7EQ" name="SimpleDateFormat"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_tmXIEKG-EeWo4MryxFK7EQ" name="util">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_toLF8aG-EeWo4MryxFK7EQ" name="Date"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_tmXIEaG-EeWo4MryxFK7EQ" name="concurrent">
+          <packagedElement xmi:type="uml:Class" xmi:id="_toMUEaG-EeWo4MryxFK7EQ" name="LinkedBlockingQueue"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_toM7IaG-EeWo4MryxFK7EQ" name="ThreadPoolExecutor"/>
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_toNiMaG-EeWo4MryxFK7EQ" name="TimeUnit"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_toQlgaG-EeWo4MryxFK7EQ" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_toRzoKG-EeWo4MryxFK7EQ" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_toSasKG-EeWo4MryxFK7EQ" name="ResourceBundle"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tonK0KG-EeWo4MryxFK7EQ" name="Collections"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_totRcKG-EeWo4MryxFK7EQ" name="lang">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_tot4gKG-EeWo4MryxFK7EQ" name="Runnable"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_toxi4KG-EeWo4MryxFK7EQ" name="Object"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_tmS2oKG-EeWo4MryxFK7EQ" name="javafx">
+      <packagedElement xmi:type="uml:Package" xmi:id="_tmS2oaG-EeWo4MryxFK7EQ" name="animation">
+        <packagedElement xmi:type="uml:Class" xmi:id="_toDKIKG-EeWo4MryxFK7EQ" name="Animation"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_toDxMaG-EeWo4MryxFK7EQ" name="KeyFrame"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_toEYQaG-EeWo4MryxFK7EQ" name="Timeline"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_tmS2oqG-EeWo4MryxFK7EQ" name="application">
+        <packagedElement xmi:type="uml:Class" xmi:id="_toE_UaG-EeWo4MryxFK7EQ" name="Application"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_tmTdsKG-EeWo4MryxFK7EQ" name="event">
+        <packagedElement xmi:type="uml:Class" xmi:id="_toE_U6G-EeWo4MryxFK7EQ" name="ActionEvent"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_toFmYaG-EeWo4MryxFK7EQ" name="EventHandler"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_tmTdsaG-EeWo4MryxFK7EQ" name="fxml">
+        <packagedElement xmi:type="uml:Class" xmi:id="_toGNcaG-EeWo4MryxFK7EQ" name="FXMLLoader"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_toVeAaG-EeWo4MryxFK7EQ" name="FXML"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_toWFEaG-EeWo4MryxFK7EQ" name="Initializable"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_tmTdsqG-EeWo4MryxFK7EQ" name="stage">
+        <packagedElement xmi:type="uml:Class" xmi:id="_toG0gaG-EeWo4MryxFK7EQ" name="Stage"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_tmTds6G-EeWo4MryxFK7EQ" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_toHbkKG-EeWo4MryxFK7EQ" name="Duration"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_tmTdtKG-EeWo4MryxFK7EQ" name="scene">
+        <packagedElement xmi:type="uml:Class" xmi:id="_toHbkqG-EeWo4MryxFK7EQ" name="Parent"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_tmZkUKG-EeWo4MryxFK7EQ" name="chart">
+          <packagedElement xmi:type="uml:Class" xmi:id="_toWsIaG-EeWo4MryxFK7EQ" name="BarChart"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_toXTMaG-EeWo4MryxFK7EQ" name="CategoryAxis"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_toX6QaG-EeWo4MryxFK7EQ" name="XYChart"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_tmZkUaG-EeWo4MryxFK7EQ" name="control">
+          <packagedElement xmi:type="uml:Class" xmi:id="_toZvcKG-EeWo4MryxFK7EQ" name="Alert"/>
+          <packagedElement xmi:type="uml:Package" xmi:id="_tmZkUqG-EeWo4MryxFK7EQ" name="Alert">
+            <packagedElement xmi:type="uml:Enumeration" xmi:id="_toaWgaG-EeWo4MryxFK7EQ" name="AlertType"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_toa9kaG-EeWo4MryxFK7EQ" name="Button"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_tobkoaG-EeWo4MryxFK7EQ" name="Label"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_tocLsaG-EeWo4MryxFK7EQ" name="ListView"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_todZ0KG-EeWo4MryxFK7EQ" name="TextArea"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_todZ0qG-EeWo4MryxFK7EQ" name="TextField"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_tmZkU6G-EeWo4MryxFK7EQ" name="input">
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_toeA4aG-EeWo4MryxFK7EQ" name="KeyCode"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_tofPAKG-EeWo4MryxFK7EQ" name="KeyEvent"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_tmZkVKG-EeWo4MryxFK7EQ" name="layout">
+          <packagedElement xmi:type="uml:Class" xmi:id="_tof2EaG-EeWo4MryxFK7EQ" name="Region"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_toICoaG-EeWo4MryxFK7EQ" name="Scene"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_tmY9QKG-EeWo4MryxFK7EQ" name="beans">
+        <packagedElement xmi:type="uml:Package" xmi:id="_tmY9QaG-EeWo4MryxFK7EQ" name="value">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_toTBwaG-EeWo4MryxFK7EQ" name="ChangeListener"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_toTo0aG-EeWo4MryxFK7EQ" name="ObservableValue"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_tmY9QqG-EeWo4MryxFK7EQ" name="collections">
+        <packagedElement xmi:type="uml:Class" xmi:id="_toUP4aG-EeWo4MryxFK7EQ" name="FXCollections"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_toU28aG-EeWo4MryxFK7EQ" name="ObservableList"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_tcYssKG-EeWo4MryxFK7EQ">
+      <eAnnotations xmi:id="_tcYssaG-EeWo4MryxFK7EQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_tcZTwKG-EeWo4MryxFK7EQ" base_Package="_tTsqwKG-EeWo4MryxFK7EQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tm0bEaG-EeWo4MryxFK7EQ" base_Element="_tm0bEKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_tm1CIKG-EeWo4MryxFK7EQ" base_Element="_tm0bEKG-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_tm1pMKG-EeWo4MryxFK7EQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tm7IwqG-EeWo4MryxFK7EQ" base_Element="_tm7IwKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_tm7v0KG-EeWo4MryxFK7EQ" base_Element="_tm7IwKG-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_tm7v0aG-EeWo4MryxFK7EQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tm9lAaG-EeWo4MryxFK7EQ" base_Element="_tm9lAKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_tm9lAqG-EeWo4MryxFK7EQ" base_Element="_tm9lAKG-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_tm9lA6G-EeWo4MryxFK7EQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_tn-4sKG-EeWo4MryxFK7EQ" base_Element="_tn-RoKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tn_fwKG-EeWo4MryxFK7EQ" base_Element="_tn-4saG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toAG0KG-EeWo4MryxFK7EQ" base_Element="_tn_fwaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toAt4KG-EeWo4MryxFK7EQ" base_Element="_toAG0aG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toBU8KG-EeWo4MryxFK7EQ" base_Element="_toAt4aG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toB8AKG-EeWo4MryxFK7EQ" base_Element="_toBU8aG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toDxMKG-EeWo4MryxFK7EQ" base_Element="_toDKIKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toEYQKG-EeWo4MryxFK7EQ" base_Element="_toDxMaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toE_UKG-EeWo4MryxFK7EQ" base_Element="_toEYQaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toE_UqG-EeWo4MryxFK7EQ" base_Element="_toE_UaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toFmYKG-EeWo4MryxFK7EQ" base_Element="_toE_U6G-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toGNcKG-EeWo4MryxFK7EQ" base_Element="_toFmYaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toG0gKG-EeWo4MryxFK7EQ" base_Element="_toGNcaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toG0gqG-EeWo4MryxFK7EQ" base_Element="_toG0gaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toHbkaG-EeWo4MryxFK7EQ" base_Element="_toHbkKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toICoKG-EeWo4MryxFK7EQ" base_Element="_toHbkqG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toIpsKG-EeWo4MryxFK7EQ" base_Element="_toICoaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toJ30KG-EeWo4MryxFK7EQ" base_Element="_toJQwKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toKe4KG-EeWo4MryxFK7EQ" base_Element="_toJ30aG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toLF8KG-EeWo4MryxFK7EQ" base_Element="_toKe4aG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toMUEKG-EeWo4MryxFK7EQ" base_Element="_toLF8aG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toM7IKG-EeWo4MryxFK7EQ" base_Element="_toMUEaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toNiMKG-EeWo4MryxFK7EQ" base_Element="_toM7IaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toOJQKG-EeWo4MryxFK7EQ" base_Element="_toNiMaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toQlgKG-EeWo4MryxFK7EQ" base_Element="_toP-cKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toRMkKG-EeWo4MryxFK7EQ" base_Element="_toQlgaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toRzoaG-EeWo4MryxFK7EQ" base_Element="_toRzoKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toTBwKG-EeWo4MryxFK7EQ" base_Element="_toSasKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toTo0KG-EeWo4MryxFK7EQ" base_Element="_toTBwaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toUP4KG-EeWo4MryxFK7EQ" base_Element="_toTo0aG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toU28KG-EeWo4MryxFK7EQ" base_Element="_toUP4aG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toVeAKG-EeWo4MryxFK7EQ" base_Element="_toU28aG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toWFEKG-EeWo4MryxFK7EQ" base_Element="_toVeAaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toWsIKG-EeWo4MryxFK7EQ" base_Element="_toWFEaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toXTMKG-EeWo4MryxFK7EQ" base_Element="_toWsIaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toX6QKG-EeWo4MryxFK7EQ" base_Element="_toXTMaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toZIYKG-EeWo4MryxFK7EQ" base_Element="_toX6QaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toaWgKG-EeWo4MryxFK7EQ" base_Element="_toZvcKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toa9kKG-EeWo4MryxFK7EQ" base_Element="_toaWgaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tobkoKG-EeWo4MryxFK7EQ" base_Element="_toa9kaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tocLsKG-EeWo4MryxFK7EQ" base_Element="_tobkoaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tocywKG-EeWo4MryxFK7EQ" base_Element="_tocLsaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_todZ0aG-EeWo4MryxFK7EQ" base_Element="_todZ0KG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toeA4KG-EeWo4MryxFK7EQ" base_Element="_todZ0qG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toen8KG-EeWo4MryxFK7EQ" base_Element="_toeA4aG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tof2EKG-EeWo4MryxFK7EQ" base_Element="_tofPAKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_togdIKG-EeWo4MryxFK7EQ" base_Element="_tof2EaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tonx4KG-EeWo4MryxFK7EQ" base_Element="_tonK0KG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_toufkKG-EeWo4MryxFK7EQ" base_Element="_tot4gKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tow70KG-EeWo4MryxFK7EQ" base_Element="_towUwKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_tow70aG-EeWo4MryxFK7EQ" base_Element="_towUwKG-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_tow70qG-EeWo4MryxFK7EQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_toyJ8KG-EeWo4MryxFK7EQ" base_Element="_toxi4KG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_toyxAaG-EeWo4MryxFK7EQ" base_Element="_toyJ8aG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_tozYEKG-EeWo4MryxFK7EQ" base_Element="_toyJ8aG-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_tozYEaG-EeWo4MryxFK7EQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_to3CcKG-EeWo4MryxFK7EQ" base_Element="_to2bYKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_to3CcaG-EeWo4MryxFK7EQ" base_Element="_to2bYKG-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_to3CcqG-EeWo4MryxFK7EQ" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_to3pgKG-EeWo4MryxFK7EQ" base_Element="_to3Cc6G-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_to3pgaG-EeWo4MryxFK7EQ" base_Element="_to3Cc6G-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_to3pgqG-EeWo4MryxFK7EQ" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_to4QkKG-EeWo4MryxFK7EQ" base_Element="_to3pg6G-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_to4QkaG-EeWo4MryxFK7EQ" base_Element="_to3pg6G-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_to4QkqG-EeWo4MryxFK7EQ" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_to43oKG-EeWo4MryxFK7EQ" base_Element="_to4Qk6G-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_to43oaG-EeWo4MryxFK7EQ" base_Element="_to4Qk6G-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_to43oqG-EeWo4MryxFK7EQ" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_to5esKG-EeWo4MryxFK7EQ" base_Element="_to43o6G-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_to5esaG-EeWo4MryxFK7EQ" base_Element="_to43o6G-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_to5esqG-EeWo4MryxFK7EQ" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_to6FwqG-EeWo4MryxFK7EQ" base_Element="_to6FwKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_to6s0KG-EeWo4MryxFK7EQ" base_Element="_to6FwKG-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_to6s0aG-EeWo4MryxFK7EQ" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_to7T4KG-EeWo4MryxFK7EQ" base_Element="_to6s0qG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_to7T4aG-EeWo4MryxFK7EQ" base_Element="_to6s0qG-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_to7T4qG-EeWo4MryxFK7EQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_to8iAKG-EeWo4MryxFK7EQ" genericsValue="Nominated" base_Element="_to768aG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Generics xmi:id="_to_lUKG-EeWo4MryxFK7EQ" genericsValue="Nominated" base_Element="_to--QKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpEd0aG-EeWo4MryxFK7EQ" base_Element="_tpEd0KG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpFE4aG-EeWo4MryxFK7EQ" base_Element="_tpFE4KG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpFr8aG-EeWo4MryxFK7EQ" base_Element="_tpFr8KG-EeWo4MryxFK7EQ">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_tpGTAKG-EeWo4MryxFK7EQ" name="getNumberOfVote" method="_tpXYwKG-EeWo4MryxFK7EQ">
+      <eAnnotations xmi:id="_tpGTAaG-EeWo4MryxFK7EQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <details xmi:id="_tpGTAqG-EeWo4MryxFK7EQ" key="synchronized"/>
+      </eAnnotations>
+      <ownedParameter xmi:id="_tpGTA6G-EeWo4MryxFK7EQ" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpHhI6G-EeWo4MryxFK7EQ" base_Element="_tpHhIaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpIvQKG-EeWo4MryxFK7EQ" base_Element="_tpIIMqG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpJWUaG-EeWo4MryxFK7EQ" base_Element="_tpJWUKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpJ9YKG-EeWo4MryxFK7EQ" base_Element="_tpJWUqG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpJ9YqG-EeWo4MryxFK7EQ" base_Element="_tpJ9YaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_tpJ9Y6G-EeWo4MryxFK7EQ" base_Element="_tpJ9YaG-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_tpJ9ZKG-EeWo4MryxFK7EQ" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpKkcKG-EeWo4MryxFK7EQ" base_Element="_tpJ9ZaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_tpKkcaG-EeWo4MryxFK7EQ" base_Element="_tpJ9ZaG-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_tpKkcqG-EeWo4MryxFK7EQ" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpKkdKG-EeWo4MryxFK7EQ" base_Element="_tpKkc6G-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_tpLLgKG-EeWo4MryxFK7EQ" base_Element="_tpKkc6G-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_tpLLgaG-EeWo4MryxFK7EQ" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpLLg6G-EeWo4MryxFK7EQ" base_Element="_tpLLgqG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_tpLLhKG-EeWo4MryxFK7EQ" base_Element="_tpLLgqG-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_tpLLhaG-EeWo4MryxFK7EQ" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpLykaG-EeWo4MryxFK7EQ" base_Element="_tpLykKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_tpLykqG-EeWo4MryxFK7EQ" base_Element="_tpLykKG-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_tpLyk6G-EeWo4MryxFK7EQ" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpMZoaG-EeWo4MryxFK7EQ" base_Element="_tpMZoKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_tpMZoqG-EeWo4MryxFK7EQ" base_Element="_tpMZoKG-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_tpMZo6G-EeWo4MryxFK7EQ" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpNAsKG-EeWo4MryxFK7EQ" base_Element="_tpMZpKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_tpNAsaG-EeWo4MryxFK7EQ" base_Element="_tpMZpKG-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_tpNAsqG-EeWo4MryxFK7EQ" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpNnwKG-EeWo4MryxFK7EQ" base_Element="_tpNAs6G-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_tpNnwaG-EeWo4MryxFK7EQ" base_Element="_tpNAs6G-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_tpNnwqG-EeWo4MryxFK7EQ" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_tpOO0KG-EeWo4MryxFK7EQ" genericsValue="String" base_Element="_tpNnw6G-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpO14KG-EeWo4MryxFK7EQ" base_Element="_tpNnw6G-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_tpO14aG-EeWo4MryxFK7EQ" base_Element="_tpNnw6G-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_tpO14qG-EeWo4MryxFK7EQ" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpPc8KG-EeWo4MryxFK7EQ" base_Element="_tpO146G-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_tpPc8aG-EeWo4MryxFK7EQ" base_Element="_tpO146G-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_tpPc8qG-EeWo4MryxFK7EQ" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_tpQEAKG-EeWo4MryxFK7EQ" genericsValue="String,Integer" base_Element="_tpPc86G-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpQEAaG-EeWo4MryxFK7EQ" base_Element="_tpPc86G-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_tpQEAqG-EeWo4MryxFK7EQ" base_Element="_tpPc86G-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_tpQEA6G-EeWo4MryxFK7EQ" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpQrEaG-EeWo4MryxFK7EQ" base_Element="_tpQrEKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Annotations xmi:id="_tpRSIKG-EeWo4MryxFK7EQ" base_Element="_tpQrEKG-EeWo4MryxFK7EQ">
+    <annotations xmi:id="_tpRSIaG-EeWo4MryxFK7EQ" name="FXML"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_tpRSI6G-EeWo4MryxFK7EQ" genericsValue="String" base_Element="_tpRSIqG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpR5MaG-EeWo4MryxFK7EQ" base_Element="_tpRSIqG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpTHUaG-EeWo4MryxFK7EQ" base_Element="_tpTHUKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpTuYqG-EeWo4MryxFK7EQ" base_Element="_tpTuYKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpUVcKG-EeWo4MryxFK7EQ" base_Element="_tpTuY6G-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpU8gKG-EeWo4MryxFK7EQ" base_Element="_tpUVc6G-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpU8g6G-EeWo4MryxFK7EQ" base_Element="_tpU8gaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_tpVjkKG-EeWo4MryxFK7EQ" base_Element="_tpU8hKG-EeWo4MryxFK7EQ"/>
+  <uml:OpaqueBehavior xmi:id="_tpXYwKG-EeWo4MryxFK7EQ" name="getNumberOfVote" specification="_tpGTAKG-EeWo4MryxFK7EQ">
+    <ownedParameter xmi:id="_tpXYwaG-EeWo4MryxFK7EQ" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return NumberOfVote;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_tphJwKG-EeWo4MryxFK7EQ" base_Element="_tpgisKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tphw0KG-EeWo4MryxFK7EQ" base_Element="_tphJwaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tpiX4KG-EeWo4MryxFK7EQ" base_Element="_tphw0aG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tpi-8KG-EeWo4MryxFK7EQ" base_Element="_tpiX4aG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tpi-86G-EeWo4MryxFK7EQ" base_Element="_tpi-8aG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tpjmAaG-EeWo4MryxFK7EQ" base_Element="_tpi-9KG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tpkNEKG-EeWo4MryxFK7EQ" base_Element="_tpjmAqG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tpkNE6G-EeWo4MryxFK7EQ" base_Element="_tpkNEaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tpk0IqG-EeWo4MryxFK7EQ" base_Element="_tpk0IKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tplbMKG-EeWo4MryxFK7EQ" base_Element="_tpk0I6G-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tpmCQKG-EeWo4MryxFK7EQ" base_Element="_tplbMaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tpmCQ6G-EeWo4MryxFK7EQ" base_Element="_tpmCQaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tpmpUaG-EeWo4MryxFK7EQ" base_Element="_tpmCRKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tpnQYKG-EeWo4MryxFK7EQ" base_Element="_tpmpUqG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tpnQY6G-EeWo4MryxFK7EQ" base_Element="_tpnQYaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tpn3cKG-EeWo4MryxFK7EQ" base_Element="_tpnQZKG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tpoegKG-EeWo4MryxFK7EQ" base_Element="_tpn3caG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tpoeg6G-EeWo4MryxFK7EQ" base_Element="_tpoegaG-EeWo4MryxFK7EQ"/>
+  <UMLLabProfile:Reference xmi:id="_tppFkKG-EeWo4MryxFK7EQ" base_Element="_tpoehKG-EeWo4MryxFK7EQ"/>
+</xmi:XMI>

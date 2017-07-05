@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="871.0" prefWidth="1086.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cm3033.CyrilNiobe.ServerGUIController">
+   <top>
+      <MenuBar maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="0.0" prefWidth="712.0" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Start vote" />
+                  <MenuItem mnemonicParsing="false" text="Finish vote" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <left>
+      <SplitPane dividerPositions="0.10309278350515463" orientation="VERTICAL" prefHeight="746.0" prefWidth="211.0" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="0.0" prefWidth="131.0">
+               <children>
+                  <Button fx:id="BtnAdd" layoutX="143.0" layoutY="37.0" mnemonicParsing="false" onAction="#addAction" text="+" />
+                  <Button fx:id="BtnDelete" layoutX="176.0" layoutY="37.0" mnemonicParsing="false" onAction="#deleteAction" text="-" />
+                  <TextField fx:id="TxtFieldName" layoutX="14.0" layoutY="37.0" prefHeight="27.0" prefWidth="118.0" />
+                  <Label layoutX="59.0" layoutY="6.0" text="Nominated names" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <ListView fx:id="ListviewNames" layoutX="-2.0" layoutY="-2.0" prefHeight="562.0" prefWidth="229.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </left>
+   <center>
+      <SplitPane dividerPositions="0.10309278350515463" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="193.0" layoutY="28.0" prefHeight="25.0" prefWidth="81.0" text="Server Logs" textFill="#d32121" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Label layoutX="12.0" layoutY="6.0" text="Highest number of votes for :" />
+                  <Label fx:id="LblHighestVote" layoutX="12.0" layoutY="31.0" prefHeight="17.0" prefWidth="337.0" text="" />
+                  <TextArea fx:id="TxtAreaLogs" layoutX="6.0" layoutY="94.0" prefHeight="623.0" prefWidth="451.0" />
+                  <Label layoutX="215.0" layoutY="63.0" text="Logs :" />
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </center>
+   <right>
+      <SplitPane dividerPositions="0.10309278350515463" orientation="VERTICAL" prefHeight="746.0" prefWidth="406.0" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="165.0" layoutY="28.0" prefHeight="25.0" prefWidth="75.0" text="Votes Chart" textFill="#d32121" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <BarChart fx:id="ChartVotes" layoutX="-2.0" layoutY="-2.0" legendVisible="false" prefHeight="562.0" prefWidth="344.0" title="Votes histogram" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <xAxis>
+                      <CategoryAxis side="BOTTOM" fx:id="xAxis" />
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis side="LEFT" />
+                    </yAxis>
+                  </BarChart>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </right>
+   <bottom>
+      <Pane prefHeight="54.0" prefWidth="894.0" BorderPane.alignment="CENTER">
+         <children>
+         	<Button fx:id="BtnStart" layoutX="100.0" layoutY="14.0" mnemonicParsing="false" onAction="#startAction" text="START SERVER" />
+            <Button fx:id="BtnOpen" layoutX="341.0" layoutY="14.0" mnemonicParsing="false" onAction="#openAction" text="OPEN VOTING ROUND" />
+            <Button fx:id="BtnClose" layoutX="610.0" layoutY="14.0" mnemonicParsing="false" onAction="#closeAction" text="CLOSE VOTING ROUND" />
+            <Button fx:id="BtnEnd" layoutX="881.0" layoutY="14.0" mnemonicParsing="false" onAction="#endAction" text="CLOSE SERVER AND QUIT" />
+         </children>
+      </Pane>
+   </bottom>
+</BorderPane>

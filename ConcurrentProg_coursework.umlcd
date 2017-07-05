@@ -1,0 +1,1547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_tUPdUKG-EeWo4MryxFK7EQ">
+  <modelElement href="ConcurrentProg_coursework.uml#_tmSPkKG-EeWo4MryxFK7EQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tuAoMaG-EeWo4MryxFK7EQ" targetItem="_tuDriaG-EeWo4MryxFK7EQ" sourceItem="_tuAoMKG-EeWo4MryxFK7EQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tuDEcKG-EeWo4MryxFK7EQ" source="_tuDriaG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpgisKG-EeWo4MryxFK7EQ"/>
+    <stereotypes xmi:id="_tuDEcaG-EeWo4MryxFK7EQ" name="Reference">
+      <modelElement href="ConcurrentProg_coursework.uml#_tphJwKG-EeWo4MryxFK7EQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tuDEcqG-EeWo4MryxFK7EQ" text=""/>
+    <sourceRole xmi:id="_tuDEc6G-EeWo4MryxFK7EQ" aggregationKind="NONE" name="">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpgisaG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tuDEdKG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tuDEdaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tuDEdqG-EeWo4MryxFK7EQ" aggregationKind="NONE" name="socket" navigable="true">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpEd0KG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xm5KAKHZEeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpEd0aG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tuDEd6G-EeWo4MryxFK7EQ" label="~"/>
+      <cardinality xmi:id="_tuDEeKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tuDrgKG-EeWo4MryxFK7EQ" sourceAnchor="505.0,0.0" targetAnchor="282.0,478.0" target="_tu1uqaG-EeWo4MryxFK7EQ" source="_tuDriaG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tphJwaG-EeWo4MryxFK7EQ"/>
+    <stereotypes xmi:id="_tuDrgaG-EeWo4MryxFK7EQ" name="Reference">
+      <modelElement href="ConcurrentProg_coursework.uml#_tphw0KG-EeWo4MryxFK7EQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tuDrgqG-EeWo4MryxFK7EQ" text="">
+      <visualProperties xmi:id="_uUcWEKG-EeWo4MryxFK7EQ" position="121.99999999999991,410.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tuDrg6G-EeWo4MryxFK7EQ" aggregationKind="NONE" name="">
+      <modelElement href="ConcurrentProg_coursework.uml#_tphJwqG-EeWo4MryxFK7EQ"/>
+      <visualProperties xmi:id="_uUbvAaG-EeWo4MryxFK7EQ" position="-17.0,-27.0"/>
+      <visibility xmi:id="_tuDrhKG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tuDrhaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tuDrhqG-EeWo4MryxFK7EQ" aggregationKind="NONE" name="" navigable="true">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpFE4KG-EeWo4MryxFK7EQ"/>
+      <visualProperties xmi:id="_uUcWEaG-EeWo4MryxFK7EQ" position="1.0,14.0"/>
+      <stereotypes xmi:id="_8YxfkKHWEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_8YytsKHWEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_8Yz70KHWEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xm5KAaHZEeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpFE4aG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tuDrh6G-EeWo4MryxFK7EQ" label="~"/>
+      <cardinality xmi:id="_tuDriKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tuMOYKG-EeWo4MryxFK7EQ" sourceAnchor="0.0,87.0" targetAnchor="563.0,442.0" target="_tu1uqaG-EeWo4MryxFK7EQ" source="_tuPRuaG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tphw0aG-EeWo4MryxFK7EQ"/>
+    <stereotypes xmi:id="_tuNcg6G-EeWo4MryxFK7EQ" name="Reference">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpiX4KG-EeWo4MryxFK7EQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tuNcgKG-EeWo4MryxFK7EQ" text="">
+      <visualProperties xmi:id="_uUc9IKG-EeWo4MryxFK7EQ" position="-138.00000000000006,472.99999999999994"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tuNcgaG-EeWo4MryxFK7EQ" aggregationKind="NONE" name="">
+      <modelElement href="ConcurrentProg_coursework.uml#_tphw0qG-EeWo4MryxFK7EQ"/>
+      <visualProperties xmi:id="_uUcWEqG-EeWo4MryxFK7EQ" position="-25.000000000000004,1.0"/>
+      <visibility xmi:id="_tuODkaG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tuODkKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tuNcgqG-EeWo4MryxFK7EQ" aggregationKind="NONE" name="" navigable="true">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpIIMqG-EeWo4MryxFK7EQ"/>
+      <visualProperties xmi:id="_uUc9IaG-EeWo4MryxFK7EQ" position="9.999999999999993,1.0"/>
+      <stereotypes xmi:id="_I_koAKHXEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_I_lPEKHXEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_I_l2IKHXEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xm5xEKHZEeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpIvQKG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tuODk6G-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tuODkqG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tuMOYqG-EeWo4MryxFK7EQ" targetItem="_tuPR16G-EeWo4MryxFK7EQ" sourceItem="_tuMOYaG-EeWo4MryxFK7EQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tuM1caG-EeWo4MryxFK7EQ" targetItem="_tuPR3KG-EeWo4MryxFK7EQ" sourceItem="_tuM1cKG-EeWo4MryxFK7EQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tuPRsKG-EeWo4MryxFK7EQ" source="_tuPRuaG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpiX4aG-EeWo4MryxFK7EQ"/>
+    <stereotypes xmi:id="_tuPRsaG-EeWo4MryxFK7EQ" name="Reference">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpi-8KG-EeWo4MryxFK7EQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tuPRsqG-EeWo4MryxFK7EQ" text=""/>
+    <sourceRole xmi:id="_tuPRs6G-EeWo4MryxFK7EQ" aggregationKind="NONE" name="">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpiX4qG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tuPRtKG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tuPRtaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tuPRtqG-EeWo4MryxFK7EQ" aggregationKind="NONE" name="pool" navigable="true">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpIvQaG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tuPRt6G-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tuPRuKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tuS8EKG-EeWo4MryxFK7EQ" sourceAnchor="0.0,250.0" targetAnchor="312.0,87.0" target="_tuPRuaG-EeWo4MryxFK7EQ" source="_tujawKG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpi-8aG-EeWo4MryxFK7EQ"/>
+    <stereotypes xmi:id="_tuUKM6G-EeWo4MryxFK7EQ" name="Reference">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpi-86G-EeWo4MryxFK7EQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tuUKMKG-EeWo4MryxFK7EQ" text="">
+      <visualProperties xmi:id="_uUdkMaG-EeWo4MryxFK7EQ" position="-495.0,488.0000000000001"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tuUKMaG-EeWo4MryxFK7EQ" aggregationKind="NONE" name="">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpi-8qG-EeWo4MryxFK7EQ"/>
+      <visualProperties xmi:id="_uUdkMKG-EeWo4MryxFK7EQ" position="-26.0,1.0"/>
+      <visibility xmi:id="_tuYboaG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tuYboKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tuUKMqG-EeWo4MryxFK7EQ" aggregationKind="NONE" name="serv" navigable="true">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpJWUqG-EeWo4MryxFK7EQ"/>
+      <visualProperties xmi:id="_uUdkMqG-EeWo4MryxFK7EQ" position="19.0,1.0"/>
+      <stereotypes xmi:id="_xm6_MKHZEeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpJ9YKG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tuZCsaG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tuZCsKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tuUxQaG-EeWo4MryxFK7EQ" targetItem="_tujbHaG-EeWo4MryxFK7EQ" sourceItem="_tuUxQKG-EeWo4MryxFK7EQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tuV_YaG-EeWo4MryxFK7EQ" targetItem="_tujbW6G-EeWo4MryxFK7EQ" sourceItem="_tuV_YKG-EeWo4MryxFK7EQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tua34KG-EeWo4MryxFK7EQ" source="_tujawKG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpi-9KG-EeWo4MryxFK7EQ"/>
+    <stereotypes xmi:id="_tua34aG-EeWo4MryxFK7EQ" name="Reference">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpjmAaG-EeWo4MryxFK7EQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tua34qG-EeWo4MryxFK7EQ" text=""/>
+    <sourceRole xmi:id="_tua346G-EeWo4MryxFK7EQ" aggregationKind="NONE" name="">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpjmAKG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tua35KG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tua35aG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tua35qG-EeWo4MryxFK7EQ" aggregationKind="NONE" name="BtnAdd" navigable="true">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpJ9YaG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xm6_MaHZEeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpJ9YqG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xm6_MqHZEeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpJ9Y6G-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tua356G-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tua36KG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tube8KG-EeWo4MryxFK7EQ" source="_tujawKG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpjmAqG-EeWo4MryxFK7EQ"/>
+    <stereotypes xmi:id="_tube8aG-EeWo4MryxFK7EQ" name="Reference">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpkNEKG-EeWo4MryxFK7EQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tube8qG-EeWo4MryxFK7EQ" text=""/>
+    <sourceRole xmi:id="_tube86G-EeWo4MryxFK7EQ" aggregationKind="NONE" name="">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpjmA6G-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tube9KG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tube9aG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tube9qG-EeWo4MryxFK7EQ" aggregationKind="NONE" name="BtnDelete" navigable="true">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpJ9ZaG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xm7mQKHZEeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpKkcKG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xm7mQaHZEeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpKkcaG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tube96G-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tube-KG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tucGAKG-EeWo4MryxFK7EQ" source="_tujawKG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpkNEaG-EeWo4MryxFK7EQ"/>
+    <stereotypes xmi:id="_tucGAaG-EeWo4MryxFK7EQ" name="Reference">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpkNE6G-EeWo4MryxFK7EQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tucGAqG-EeWo4MryxFK7EQ" text=""/>
+    <sourceRole xmi:id="_tucGA6G-EeWo4MryxFK7EQ" aggregationKind="NONE" name="">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpkNEqG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tucGBKG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tucGBaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tucGBqG-EeWo4MryxFK7EQ" aggregationKind="NONE" name="BtnStart" navigable="true">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpKkc6G-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xm7mQqHZEeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpKkdKG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xm7mQ6HZEeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpLLgKG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tucGB6G-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tucGCKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tudUIKG-EeWo4MryxFK7EQ" source="_tujawKG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpk0IKG-EeWo4MryxFK7EQ"/>
+    <stereotypes xmi:id="_tudUIaG-EeWo4MryxFK7EQ" name="Reference">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpk0IqG-EeWo4MryxFK7EQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tudUIqG-EeWo4MryxFK7EQ" text=""/>
+    <sourceRole xmi:id="_tudUI6G-EeWo4MryxFK7EQ" aggregationKind="NONE" name="">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpk0IaG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tudUJKG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tudUJaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tudUJqG-EeWo4MryxFK7EQ" aggregationKind="NONE" name="BtnOpen" navigable="true">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpLLgqG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xm8NUKHZEeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpLLg6G-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xm8NUaHZEeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpLLhKG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tudUJ6G-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tudUKKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tud7MKG-EeWo4MryxFK7EQ" source="_tujawKG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpk0I6G-EeWo4MryxFK7EQ"/>
+    <stereotypes xmi:id="_tud7MaG-EeWo4MryxFK7EQ" name="Reference">
+      <modelElement href="ConcurrentProg_coursework.uml#_tplbMKG-EeWo4MryxFK7EQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tud7MqG-EeWo4MryxFK7EQ" text=""/>
+    <sourceRole xmi:id="_tud7M6G-EeWo4MryxFK7EQ" aggregationKind="NONE" name="">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpk0JKG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tud7NKG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tud7NaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tud7NqG-EeWo4MryxFK7EQ" aggregationKind="NONE" name="BtnClose" navigable="true">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpLykKG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xm8NUqHZEeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpLykaG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xm8NU6HZEeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpLykqG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tud7N6G-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tud7OKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tueiQKG-EeWo4MryxFK7EQ" source="_tujawKG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tplbMaG-EeWo4MryxFK7EQ"/>
+    <stereotypes xmi:id="_tueiQaG-EeWo4MryxFK7EQ" name="Reference">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpmCQKG-EeWo4MryxFK7EQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tueiQqG-EeWo4MryxFK7EQ" text=""/>
+    <sourceRole xmi:id="_tueiQ6G-EeWo4MryxFK7EQ" aggregationKind="NONE" name="">
+      <modelElement href="ConcurrentProg_coursework.uml#_tplbMqG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tueiRKG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tueiRaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tueiRqG-EeWo4MryxFK7EQ" aggregationKind="NONE" name="BtnEnd" navigable="true">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpMZoKG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xm80YKHZEeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpMZoaG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xm80YaHZEeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpMZoqG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tueiR6G-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tueiSKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tufJUKG-EeWo4MryxFK7EQ" source="_tujawKG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpmCQaG-EeWo4MryxFK7EQ"/>
+    <stereotypes xmi:id="_tufJUaG-EeWo4MryxFK7EQ" name="Reference">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpmCQ6G-EeWo4MryxFK7EQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tufJUqG-EeWo4MryxFK7EQ" text=""/>
+    <sourceRole xmi:id="_tufJU6G-EeWo4MryxFK7EQ" aggregationKind="NONE" name="">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpmCQqG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tufJVKG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tufJVaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tufJVqG-EeWo4MryxFK7EQ" aggregationKind="NONE" name="LblHighestVote" navigable="true">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpMZpKG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xm80YqHZEeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpNAsKG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xm80Y6HZEeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpNAsaG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tufJV6G-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tufJWKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tufwYKG-EeWo4MryxFK7EQ" source="_tujawKG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpmCRKG-EeWo4MryxFK7EQ"/>
+    <stereotypes xmi:id="_tufwYaG-EeWo4MryxFK7EQ" name="Reference">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpmpUaG-EeWo4MryxFK7EQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tufwYqG-EeWo4MryxFK7EQ" text=""/>
+    <sourceRole xmi:id="_tufwY6G-EeWo4MryxFK7EQ" aggregationKind="NONE" name="">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpmpUKG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tufwZKG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tufwZaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tufwZqG-EeWo4MryxFK7EQ" aggregationKind="NONE" name="TxtAreaLogs" navigable="true">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpNAs6G-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xm9bcKHZEeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpNnwKG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xm9bcaHZEeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpNnwaG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tufwZ6G-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tufwaKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tugXcKG-EeWo4MryxFK7EQ" source="_tujawKG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpmpUqG-EeWo4MryxFK7EQ"/>
+    <stereotypes xmi:id="_tugXcaG-EeWo4MryxFK7EQ" name="Reference">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpnQYKG-EeWo4MryxFK7EQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tugXcqG-EeWo4MryxFK7EQ" text=""/>
+    <sourceRole xmi:id="_tugXc6G-EeWo4MryxFK7EQ" aggregationKind="NONE" name="">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpmpU6G-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tugXdKG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tugXdaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tugXdqG-EeWo4MryxFK7EQ" aggregationKind="NONE" name="ListviewNames" navigable="true">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpNnw6G-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xm9bcqHZEeWo4MryxFK7EQ" name="Generics">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpOO0KG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xm9bc6HZEeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpO14KG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xm9bdKHZEeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpO14aG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tugXd6G-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tugXeKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tug-gKG-EeWo4MryxFK7EQ" source="_tujawKG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpnQYaG-EeWo4MryxFK7EQ"/>
+    <stereotypes xmi:id="_tug-gaG-EeWo4MryxFK7EQ" name="Reference">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpnQY6G-EeWo4MryxFK7EQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tug-gqG-EeWo4MryxFK7EQ" text=""/>
+    <sourceRole xmi:id="_tug-g6G-EeWo4MryxFK7EQ" aggregationKind="NONE" name="">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpnQYqG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tug-hKG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tug-haG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tug-hqG-EeWo4MryxFK7EQ" aggregationKind="NONE" name="TxtFieldName" navigable="true">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpO146G-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xm-CgKHZEeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpPc8KG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xm-CgaHZEeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpPc8aG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tug-h6G-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tug-iKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tuhlkKG-EeWo4MryxFK7EQ" source="_tujawKG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpnQZKG-EeWo4MryxFK7EQ"/>
+    <stereotypes xmi:id="_tuhlkaG-EeWo4MryxFK7EQ" name="Reference">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpn3cKG-EeWo4MryxFK7EQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tuhlkqG-EeWo4MryxFK7EQ" text=""/>
+    <sourceRole xmi:id="_tuhlk6G-EeWo4MryxFK7EQ" aggregationKind="NONE" name="">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpnQZaG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tuhllKG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tuhllaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tuhllqG-EeWo4MryxFK7EQ" aggregationKind="NONE" name="ChartVotes" navigable="true">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpPc86G-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xm-pkKHZEeWo4MryxFK7EQ" name="Generics">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpQEAKG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xm-pkaHZEeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpQEAaG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xm-pkqHZEeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpQEAqG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tuhll6G-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tuhlmKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tuiMoKG-EeWo4MryxFK7EQ" source="_tujawKG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpn3caG-EeWo4MryxFK7EQ"/>
+    <stereotypes xmi:id="_tuiMoaG-EeWo4MryxFK7EQ" name="Reference">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpoegKG-EeWo4MryxFK7EQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tuiMoqG-EeWo4MryxFK7EQ" text=""/>
+    <sourceRole xmi:id="_tuiMo6G-EeWo4MryxFK7EQ" aggregationKind="NONE" name="">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpn3cqG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tuizsKG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tuizsaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tuizsqG-EeWo4MryxFK7EQ" aggregationKind="NONE" name="xAxis" navigable="true">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpQrEKG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xm_QoKHZEeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpQrEaG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xm_QoaHZEeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpRSIKG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tuizs6G-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tuiztKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tuiztaG-EeWo4MryxFK7EQ" source="_tujawKG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpoegaG-EeWo4MryxFK7EQ"/>
+    <stereotypes xmi:id="_tuiztqG-EeWo4MryxFK7EQ" name="Reference">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpoeg6G-EeWo4MryxFK7EQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tuizt6G-EeWo4MryxFK7EQ" text=""/>
+    <sourceRole xmi:id="_tuizuKG-EeWo4MryxFK7EQ" aggregationKind="NONE" name="">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpoegqG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tuizuaG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tuizuqG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tuizu6G-EeWo4MryxFK7EQ" aggregationKind="NONE" name="listItems" navigable="true">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpRSIqG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xm_QoqHZEeWo4MryxFK7EQ" name="Generics">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpRSI6G-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_xm_Qo6HZEeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpR5MaG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tuizvKG-EeWo4MryxFK7EQ" label="~"/>
+      <cardinality xmi:id="_tuizvaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tuvA8aG-EeWo4MryxFK7EQ" targetItem="_tu1uqaG-EeWo4MryxFK7EQ" sourceItem="_tuvA8KG-EeWo4MryxFK7EQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tuvoAaG-EeWo4MryxFK7EQ" targetItem="_tu1uzqG-EeWo4MryxFK7EQ" sourceItem="_tuvoAKG-EeWo4MryxFK7EQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tuvoA6G-EeWo4MryxFK7EQ" targetItem="_tu1u1KG-EeWo4MryxFK7EQ" sourceItem="_tuvoAqG-EeWo4MryxFK7EQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tuwPEKG-EeWo4MryxFK7EQ" targetItem="_tu1u2aG-EeWo4MryxFK7EQ" sourceItem="_tuvoBKG-EeWo4MryxFK7EQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tuwPEqG-EeWo4MryxFK7EQ" targetItem="_tu1u3qG-EeWo4MryxFK7EQ" sourceItem="_tuwPEaG-EeWo4MryxFK7EQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tuwPFKG-EeWo4MryxFK7EQ" targetItem="_tu1u5aG-EeWo4MryxFK7EQ" sourceItem="_tuwPE6G-EeWo4MryxFK7EQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tuw2IaG-EeWo4MryxFK7EQ" targetItem="_tu1u6qG-EeWo4MryxFK7EQ" sourceItem="_tuw2IKG-EeWo4MryxFK7EQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tuw2I6G-EeWo4MryxFK7EQ" targetItem="_tu1u8qG-EeWo4MryxFK7EQ" sourceItem="_tuw2IqG-EeWo4MryxFK7EQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tuxdMaG-EeWo4MryxFK7EQ" targetItem="_tu1vEKG-EeWo4MryxFK7EQ" sourceItem="_tuxdMKG-EeWo4MryxFK7EQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tuyEQKG-EeWo4MryxFK7EQ" targetItem="_tu1vGaG-EeWo4MryxFK7EQ" sourceItem="_tuxdMqG-EeWo4MryxFK7EQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tuyEQqG-EeWo4MryxFK7EQ" targetItem="_tu1vHqG-EeWo4MryxFK7EQ" sourceItem="_tuyEQaG-EeWo4MryxFK7EQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tuyERKG-EeWo4MryxFK7EQ" targetItem="_tu1vJKG-EeWo4MryxFK7EQ" sourceItem="_tuyEQ6G-EeWo4MryxFK7EQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tuyrUaG-EeWo4MryxFK7EQ" targetItem="_tu1vLaG-EeWo4MryxFK7EQ" sourceItem="_tuyrUKG-EeWo4MryxFK7EQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tuyrU6G-EeWo4MryxFK7EQ" targetItem="_tu1vM6G-EeWo4MryxFK7EQ" sourceItem="_tuyrUqG-EeWo4MryxFK7EQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tuzSYaG-EeWo4MryxFK7EQ" targetItem="_tu1vOaG-EeWo4MryxFK7EQ" sourceItem="_tuzSYKG-EeWo4MryxFK7EQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_tu1uoKG-EeWo4MryxFK7EQ" sourceAnchor="282.0,0.0" targetAnchor="0.0,78.0" target="_tvAtwKG-EeWo4MryxFK7EQ" source="_tu1uqaG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpoehKG-EeWo4MryxFK7EQ"/>
+    <bendpoints xmi:id="_GiEjcKHaEeWo4MryxFK7EQ" sourceY="-72" targetX="-345"/>
+    <stereotypes xmi:id="_tu1uoaG-EeWo4MryxFK7EQ" name="Reference">
+      <modelElement href="ConcurrentProg_coursework.uml#_tppFkKG-EeWo4MryxFK7EQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_tu1uoqG-EeWo4MryxFK7EQ" text="">
+      <visualProperties xmi:id="_uUeyUKG-EeWo4MryxFK7EQ" position="230.0,991.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_tu1uo6G-EeWo4MryxFK7EQ" aggregationKind="NONE" name="">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpoehaG-EeWo4MryxFK7EQ"/>
+      <visualProperties xmi:id="_uUeLQKG-EeWo4MryxFK7EQ" position="14.5,-45.5"/>
+      <visibility xmi:id="_tu1upKG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tu1upaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_tu1upqG-EeWo4MryxFK7EQ" aggregationKind="NONE" name="listNominated" navigable="true">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpUVc6G-EeWo4MryxFK7EQ"/>
+      <visualProperties xmi:id="_uUeyUaG-EeWo4MryxFK7EQ" position="-83.12499999999997,-40.5"/>
+      <stereotypes xmi:id="_xnAewKHZEeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpU8gKG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tu1up6G-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tu1uqKG-EeWo4MryxFK7EQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tu-4kaG-EeWo4MryxFK7EQ" targetItem="_tvAtwKG-EeWo4MryxFK7EQ" sourceItem="_tu-4kKG-EeWo4MryxFK7EQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_tu_foaG-EeWo4MryxFK7EQ" targetItem="_tvAtzKG-EeWo4MryxFK7EQ" sourceItem="_tu_foKG-EeWo4MryxFK7EQ"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tuAoMKG-EeWo4MryxFK7EQ" sourceConnectionVisual="_tuAoMaG-EeWo4MryxFK7EQ" text="*&#xA;@author Cyril" item="_tuDriaG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpc4UKG-EeWo4MryxFK7EQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tuMOYaG-EeWo4MryxFK7EQ" sourceConnectionVisual="_tuMOYqG-EeWo4MryxFK7EQ" text="Method to get the VotingRound object of this server.&#xA;&#x9; * @return" item="_tuPR16G-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpdfYqG-EeWo4MryxFK7EQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tuM1cKG-EeWo4MryxFK7EQ" sourceConnectionVisual="_tuM1caG-EeWo4MryxFK7EQ" text="Constructor of a Server&#xA;&#x9; * @param votingRound" item="_tuPR3KG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpdfYaG-EeWo4MryxFK7EQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tuUxQKG-EeWo4MryxFK7EQ" sourceConnectionVisual="_tuUxQaG-EeWo4MryxFK7EQ" text="Method to refresh the GUI data (logs,chart...)" item="_tujbHaG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpdfZKG-EeWo4MryxFK7EQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tuV_YKG-EeWo4MryxFK7EQ" sourceConnectionVisual="_tuV_YaG-EeWo4MryxFK7EQ" text="Method fill with data the BarChart&#xA;&#x9; * @param listNominated : list of nominated to display in the chart" item="_tujbW6G-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpdfY6G-EeWo4MryxFK7EQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tuvA8KG-EeWo4MryxFK7EQ" sourceConnectionVisual="_tuvA8aG-EeWo4MryxFK7EQ" text="Class which represents a voting round&#xA;@author Cyril&#xA; *" item="_tu1uqaG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpdfZaG-EeWo4MryxFK7EQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tuvoAKG-EeWo4MryxFK7EQ" sourceConnectionVisual="_tuvoAaG-EeWo4MryxFK7EQ" text="Setter to change the value of the boolean 'opened'&#xA;&#x9; * I.e. open or close the voting round&#xA;&#x9; * @param status : the boolean for closing or opening the voting round." item="_tu1uzqG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpdfZ6G-EeWo4MryxFK7EQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tuvoAqG-EeWo4MryxFK7EQ" sourceConnectionVisual="_tuvoA6G-EeWo4MryxFK7EQ" text="Getter on the opening date of the round&#xA;&#x9; * @return Date opening" item="_tu1u1KG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpeGcKG-EeWo4MryxFK7EQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tuvoBKG-EeWo4MryxFK7EQ" sourceConnectionVisual="_tuwPEKG-EeWo4MryxFK7EQ" text="Getter on the ending date of the round&#xA;&#x9; * @return Date ending" item="_tu1u2aG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpeGcaG-EeWo4MryxFK7EQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tuwPEaG-EeWo4MryxFK7EQ" sourceConnectionVisual="_tuwPEqG-EeWo4MryxFK7EQ" text="Method which add a vote to a given Nominated name&#xA;&#x9; * @param nominated : the name of the nominated to vote for" item="_tu1u3qG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpeGdKG-EeWo4MryxFK7EQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tuwPE6G-EeWo4MryxFK7EQ" sourceConnectionVisual="_tuwPFKG-EeWo4MryxFK7EQ" text="Method which return a Stringbuilder to display the list of Nominated" item="_tu1u5aG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpeGdaG-EeWo4MryxFK7EQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tuw2IKG-EeWo4MryxFK7EQ" sourceConnectionVisual="_tuw2IaG-EeWo4MryxFK7EQ" text="Method to verify that the Nominated whom the name is given in parameter, is in the list of Nominated of this round.&#xA;&#x9; * @param nominatedName&#xA;&#x9; * @return" item="_tu1u6qG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpeGd6G-EeWo4MryxFK7EQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tuw2IqG-EeWo4MryxFK7EQ" sourceConnectionVisual="_tuw2I6G-EeWo4MryxFK7EQ" text="Method to confirm the vote of the client&#xA;&#x9; * @param vote1&#xA;&#x9; * @param vote2&#xA;&#x9; * @return" item="_tu1u8qG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpeGeKG-EeWo4MryxFK7EQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tuxdMKG-EeWo4MryxFK7EQ" sourceConnectionVisual="_tuxdMaG-EeWo4MryxFK7EQ" text="Method to check if an IP is already in the IPAddresses known&#xA;&#x9; * @param ip to check&#xA;&#x9; * @return true if it's a unknown IP, else false;" item="_tu1vEKG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpeGeaG-EeWo4MryxFK7EQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tuxdMqG-EeWo4MryxFK7EQ" sourceConnectionVisual="_tuyEQKG-EeWo4MryxFK7EQ" text="Getter on the list of Logs to display it&#xA;&#x9; * @return logs contained in the list as a String." item="_tu1vGaG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpeGeqG-EeWo4MryxFK7EQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tuyEQaG-EeWo4MryxFK7EQ" sourceConnectionVisual="_tuyEQqG-EeWo4MryxFK7EQ" text="Method to add string in list of logs&#xA;&#x9; * @param string" item="_tu1vHqG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpeGe6G-EeWo4MryxFK7EQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tuyEQ6G-EeWo4MryxFK7EQ" sourceConnectionVisual="_tuyERKG-EeWo4MryxFK7EQ" text="Constructor of a VotingRound&#xA;&#x9; * @param listNom : the list of Nominated in this round as a given parameter here as the administrator set it up in the GUI" item="_tu1vJKG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpdfZqG-EeWo4MryxFK7EQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tuyrUKG-EeWo4MryxFK7EQ" sourceConnectionVisual="_tuyrUaG-EeWo4MryxFK7EQ" text="Setter on the opening date of the round&#xA;&#x9; * @param d date" item="_tu1vLaG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpeGcqG-EeWo4MryxFK7EQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tuyrUqG-EeWo4MryxFK7EQ" sourceConnectionVisual="_tuyrU6G-EeWo4MryxFK7EQ" text="Setter on the ending date of the round&#xA;&#x9; * @param d date" item="_tu1vM6G-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpeGc6G-EeWo4MryxFK7EQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tuzSYKG-EeWo4MryxFK7EQ" sourceConnectionVisual="_tuzSYaG-EeWo4MryxFK7EQ" text="Method which ask the client to vote and check some requirements&#xA;&#x9; * @param in&#xA;&#x9; * @param out&#xA;&#x9; * @return boolean : to respond with the ClientRequest when we need to end the connection with the server" item="_tu1vOaG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpeGdqG-EeWo4MryxFK7EQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tu-4kKG-EeWo4MryxFK7EQ" sourceConnectionVisual="_tu-4kaG-EeWo4MryxFK7EQ" text="Class which represents a Nominated in the Big Brother Game&#xA;@author Cyril&#xA; *" item="_tvAtwKG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpc4UaG-EeWo4MryxFK7EQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_tu_foKG-EeWo4MryxFK7EQ" sourceConnectionVisual="_tu_foaG-EeWo4MryxFK7EQ" text="Constructor of a Nominated&#xA;&#x9; * @param n : name of the person nominated" item="_tvAtzKG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tpdfYKG-EeWo4MryxFK7EQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tu1uqaG-EeWo4MryxFK7EQ" comments="_tuvA8KG-EeWo4MryxFK7EQ" targetConnectionVisual="_tuvA8aG-EeWo4MryxFK7EQ" name="VotingRound" associationsIn="_tuDrgKG-EeWo4MryxFK7EQ _tuMOYKG-EeWo4MryxFK7EQ" associationsOut="_tu1uoKG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tnLAYKG-EeWo4MryxFK7EQ"/>
+    <visualProperties xmi:id="_tu1uqqG-EeWo4MryxFK7EQ" position="-614.0,-804.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_tu1uq6G-EeWo4MryxFK7EQ" label="+"/>
+    <attributes xmi:id="_tu1urKG-EeWo4MryxFK7EQ" name="dateOpen">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpTHUKG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_tu1uraG-EeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpTHUaG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tu1urqG-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tu1ur6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tu1usKG-EeWo4MryxFK7EQ" name="Date">
+        <modelElement href="ConcurrentProg_coursework.uml#_toLF8aG-EeWo4MryxFK7EQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tu1usaG-EeWo4MryxFK7EQ" defaultValue="null" name="dateClose">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpTuYKG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_tu1usqG-EeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpTuYqG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tu1us6G-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tu1utKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tu1utaG-EeWo4MryxFK7EQ" name="Date">
+        <modelElement href="ConcurrentProg_coursework.uml#_toLF8aG-EeWo4MryxFK7EQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tu1utqG-EeWo4MryxFK7EQ" name="vote">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpTuY6G-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_tu1ut6G-EeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpUVcKG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tu1uuKG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tu1uuaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tu1uuqG-EeWo4MryxFK7EQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tu1uu6G-EeWo4MryxFK7EQ" defaultValue="false" name="open">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpUVcaG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tu1uvKG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tu1uvaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tu1uvqG-EeWo4MryxFK7EQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tu1uv6G-EeWo4MryxFK7EQ" name="listNominated">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpUVc6G-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xnwssKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnxTwKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xn_9QKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="_tu1uwaG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tu1uwqG-EeWo4MryxFK7EQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_tu1uw6G-EeWo4MryxFK7EQ" name="Nominated">
+        <modelElement href="ConcurrentProg_coursework.uml#_tm5TkKG-EeWo4MryxFK7EQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tu1uxKG-EeWo4MryxFK7EQ" name="listIPAddress">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpU8gaG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_tu1uxaG-EeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpU8g6G-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tu1uxqG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tu1ux6G-EeWo4MryxFK7EQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_tu1uyKG-EeWo4MryxFK7EQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tu1uyaG-EeWo4MryxFK7EQ" name="listLogs">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpU8hKG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_tu1uyqG-EeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpVjkKG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tu1uy6G-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tu1uzKG-EeWo4MryxFK7EQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_tu1uzaG-EeWo4MryxFK7EQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tu1uzqG-EeWo4MryxFK7EQ" comments="_tuvoAKG-EeWo4MryxFK7EQ" targetConnectionVisual="_tuvoAaG-EeWo4MryxFK7EQ" name="setOpen">
+      <modelElement href="ConcurrentProg_coursework.uml#_tnMOgKG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tu1uz6G-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tu1u0KG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tu1u0aG-EeWo4MryxFK7EQ" name="status">
+        <modelElement href="ConcurrentProg_coursework.uml#_tnMOgaG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tu1u0qG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tu1u06G-EeWo4MryxFK7EQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tu1u1KG-EeWo4MryxFK7EQ" comments="_tuvoAqG-EeWo4MryxFK7EQ" targetConnectionVisual="_tuvoA6G-EeWo4MryxFK7EQ" name="getDateOpening">
+      <modelElement href="ConcurrentProg_coursework.uml#_tnM1kKG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tu1u1aG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tu1u1qG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tu1u16G-EeWo4MryxFK7EQ">
+        <modelElement href="ConcurrentProg_coursework.uml#_to_lUaG-EeWo4MryxFK7EQ"/>
+        <type xmi:id="_tu1u2KG-EeWo4MryxFK7EQ" name="Date">
+          <modelElement href="ConcurrentProg_coursework.uml#_toLF8aG-EeWo4MryxFK7EQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tu1u2aG-EeWo4MryxFK7EQ" comments="_tuvoBKG-EeWo4MryxFK7EQ" targetConnectionVisual="_tuwPEKG-EeWo4MryxFK7EQ" name="getDateEnding">
+      <modelElement href="ConcurrentProg_coursework.uml#_tnM1kaG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tu1u2qG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tu1u26G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tu1u3KG-EeWo4MryxFK7EQ">
+        <modelElement href="ConcurrentProg_coursework.uml#_to_lUqG-EeWo4MryxFK7EQ"/>
+        <type xmi:id="_tu1u3aG-EeWo4MryxFK7EQ" name="Date">
+          <modelElement href="ConcurrentProg_coursework.uml#_toLF8aG-EeWo4MryxFK7EQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tu1u3qG-EeWo4MryxFK7EQ" comments="_tuwPEaG-EeWo4MryxFK7EQ" targetConnectionVisual="_tuwPEqG-EeWo4MryxFK7EQ" name="addVote">
+      <modelElement href="ConcurrentProg_coursework.uml#_tnNcoKG-EeWo4MryxFK7EQ"/>
+      <keywords xmi:id="_tu1u36G-EeWo4MryxFK7EQ" keyword="synchronized"/>
+      <visibility xmi:id="_tu1u4KG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tu1u4aG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tu1u4qG-EeWo4MryxFK7EQ" name="nominatedName">
+        <modelElement href="ConcurrentProg_coursework.uml#_tnNcoaG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tu1u46G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tu1u5KG-EeWo4MryxFK7EQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tu1u5aG-EeWo4MryxFK7EQ" comments="_tuwPE6G-EeWo4MryxFK7EQ" targetConnectionVisual="_tuwPFKG-EeWo4MryxFK7EQ" name="showListNominated">
+      <modelElement href="ConcurrentProg_coursework.uml#_tnODsKG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tu1u5qG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tu1u56G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tu1u6KG-EeWo4MryxFK7EQ">
+        <modelElement href="ConcurrentProg_coursework.uml#_tnODsaG-EeWo4MryxFK7EQ"/>
+        <type xmi:id="_tu1u6aG-EeWo4MryxFK7EQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tu1u6qG-EeWo4MryxFK7EQ" comments="_tuw2IKG-EeWo4MryxFK7EQ" targetConnectionVisual="_tuw2IaG-EeWo4MryxFK7EQ" name="verifyVote">
+      <modelElement href="ConcurrentProg_coursework.uml#_tnOqwKG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tu1u66G-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tu1u7KG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tu1u7aG-EeWo4MryxFK7EQ">
+        <modelElement href="ConcurrentProg_coursework.uml#_tnPR0KG-EeWo4MryxFK7EQ"/>
+        <type xmi:id="_tu1u7qG-EeWo4MryxFK7EQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tu1u76G-EeWo4MryxFK7EQ" name="nominatedName">
+        <modelElement href="ConcurrentProg_coursework.uml#_tnOqwaG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tu1u8KG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tu1u8aG-EeWo4MryxFK7EQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tu1u8qG-EeWo4MryxFK7EQ" comments="_tuw2IqG-EeWo4MryxFK7EQ" targetConnectionVisual="_tuw2I6G-EeWo4MryxFK7EQ" name="confirmVote">
+      <modelElement href="ConcurrentProg_coursework.uml#_tnPR0aG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tu1u86G-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tu1u9KG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tu1u9aG-EeWo4MryxFK7EQ">
+        <modelElement href="ConcurrentProg_coursework.uml#_tnP44aG-EeWo4MryxFK7EQ"/>
+        <type xmi:id="_tu1u9qG-EeWo4MryxFK7EQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tu1u96G-EeWo4MryxFK7EQ" name="vote1">
+        <modelElement href="ConcurrentProg_coursework.uml#_tnPR0qG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tu1u-KG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tu1u-aG-EeWo4MryxFK7EQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tu1u-qG-EeWo4MryxFK7EQ" name="vote2">
+        <modelElement href="ConcurrentProg_coursework.uml#_tnP44KG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tu1u-6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tu1u_KG-EeWo4MryxFK7EQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tu1u_aG-EeWo4MryxFK7EQ" name="getHighestVote">
+      <modelElement href="ConcurrentProg_coursework.uml#_tnP44qG-EeWo4MryxFK7EQ"/>
+      <keywords xmi:id="_tu1u_qG-EeWo4MryxFK7EQ" keyword="synchronized"/>
+      <visibility xmi:id="_tu1u_6G-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tu1vAKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tu1vAaG-EeWo4MryxFK7EQ">
+        <modelElement href="ConcurrentProg_coursework.uml#_tnP45aG-EeWo4MryxFK7EQ"/>
+        <type xmi:id="_tu1vAqG-EeWo4MryxFK7EQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tu1vA6G-EeWo4MryxFK7EQ" name="getNameOfHighestVote">
+      <modelElement href="ConcurrentProg_coursework.uml#_tnP45qG-EeWo4MryxFK7EQ"/>
+      <keywords xmi:id="_tu1vBKG-EeWo4MryxFK7EQ" keyword="synchronized"/>
+      <visibility xmi:id="_tu1vBaG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tu1vBqG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tu1vB6G-EeWo4MryxFK7EQ">
+        <modelElement href="ConcurrentProg_coursework.uml#_tnQf8qG-EeWo4MryxFK7EQ"/>
+        <type xmi:id="_tu1vCKG-EeWo4MryxFK7EQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tu1vCaG-EeWo4MryxFK7EQ" name="addIP">
+      <modelElement href="ConcurrentProg_coursework.uml#_tnQf86G-EeWo4MryxFK7EQ"/>
+      <keywords xmi:id="_tu1vCqG-EeWo4MryxFK7EQ" keyword="synchronized"/>
+      <visibility xmi:id="_tu1vC6G-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tu1vDKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tu1vDaG-EeWo4MryxFK7EQ" name="ip">
+        <modelElement href="ConcurrentProg_coursework.uml#_tnQf9KG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tu1vDqG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tu1vD6G-EeWo4MryxFK7EQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tu1vEKG-EeWo4MryxFK7EQ" comments="_tuxdMKG-EeWo4MryxFK7EQ" targetConnectionVisual="_tuxdMaG-EeWo4MryxFK7EQ" name="verifyIP">
+      <modelElement href="ConcurrentProg_coursework.uml#_tnQf96G-EeWo4MryxFK7EQ"/>
+      <keywords xmi:id="_tu1vEaG-EeWo4MryxFK7EQ" keyword="synchronized"/>
+      <visibility xmi:id="_tu1vEqG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tu1vE6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tu1vFKG-EeWo4MryxFK7EQ">
+        <modelElement href="ConcurrentProg_coursework.uml#_tnRHA6G-EeWo4MryxFK7EQ"/>
+        <type xmi:id="_tu1vFaG-EeWo4MryxFK7EQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tu1vFqG-EeWo4MryxFK7EQ" name="ip">
+        <modelElement href="ConcurrentProg_coursework.uml#_tnRHAKG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tu1vF6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tu1vGKG-EeWo4MryxFK7EQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tu1vGaG-EeWo4MryxFK7EQ" comments="_tuxdMqG-EeWo4MryxFK7EQ" targetConnectionVisual="_tuyEQKG-EeWo4MryxFK7EQ" name="getLogs">
+      <modelElement href="ConcurrentProg_coursework.uml#_tnRuEKG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tu1vGqG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tu1vG6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tu1vHKG-EeWo4MryxFK7EQ">
+        <modelElement href="ConcurrentProg_coursework.uml#_tnRuEaG-EeWo4MryxFK7EQ"/>
+        <type xmi:id="_tu1vHaG-EeWo4MryxFK7EQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tu1vHqG-EeWo4MryxFK7EQ" comments="_tuyEQaG-EeWo4MryxFK7EQ" targetConnectionVisual="_tuyEQqG-EeWo4MryxFK7EQ" name="addLogs">
+      <modelElement href="ConcurrentProg_coursework.uml#_tnRuEqG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tu1vH6G-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tu1vIKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tu1vIaG-EeWo4MryxFK7EQ" name="string">
+        <modelElement href="ConcurrentProg_coursework.uml#_tnSVIKG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tu1vIqG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tu1vI6G-EeWo4MryxFK7EQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tu1vJKG-EeWo4MryxFK7EQ" comments="_tuyEQ6G-EeWo4MryxFK7EQ" targetConnectionVisual="_tuyERKG-EeWo4MryxFK7EQ" name="VotingRound">
+      <modelElement href="ConcurrentProg_coursework.uml#_to-XMKG-EeWo4MryxFK7EQ"/>
+      <keywords xmi:id="_tu1vJaG-EeWo4MryxFK7EQ" keyword="create"/>
+      <visibility xmi:id="_tu1vJqG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tu1vJ6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tu1vKKG-EeWo4MryxFK7EQ">
+        <modelElement href="ConcurrentProg_coursework.uml#_to--Q6G-EeWo4MryxFK7EQ"/>
+        <type xmi:id="_tu1vKaG-EeWo4MryxFK7EQ" name="VotingRound">
+          <modelElement href="ConcurrentProg_coursework.uml#_tnLAYKG-EeWo4MryxFK7EQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tu1vKqG-EeWo4MryxFK7EQ" name="listNom">
+        <modelElement href="ConcurrentProg_coursework.uml#_to--QKG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tu1vK6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tu1vLKG-EeWo4MryxFK7EQ" name="List">
+          <modelElement href="ConcurrentProg_coursework.uml#_toRzoKG-EeWo4MryxFK7EQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tu1vLaG-EeWo4MryxFK7EQ" comments="_tuyrUKG-EeWo4MryxFK7EQ" targetConnectionVisual="_tuyrUaG-EeWo4MryxFK7EQ" name="setDateOpening">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpAMYKG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tu1vLqG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tu1vL6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tu1vMKG-EeWo4MryxFK7EQ" name="d">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpAMYaG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tu1vMaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tu1vMqG-EeWo4MryxFK7EQ" name="Date">
+          <modelElement href="ConcurrentProg_coursework.uml#_toLF8aG-EeWo4MryxFK7EQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tu1vM6G-EeWo4MryxFK7EQ" comments="_tuyrUqG-EeWo4MryxFK7EQ" targetConnectionVisual="_tuyrU6G-EeWo4MryxFK7EQ" name="setDateEnding">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpAMYqG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tu1vNKG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tu1vNaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tu1vNqG-EeWo4MryxFK7EQ" name="d">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpAMY6G-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tu1vN6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tu1vOKG-EeWo4MryxFK7EQ" name="Date">
+          <modelElement href="ConcurrentProg_coursework.uml#_toLF8aG-EeWo4MryxFK7EQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tu1vOaG-EeWo4MryxFK7EQ" comments="_tuzSYKG-EeWo4MryxFK7EQ" targetConnectionVisual="_tuzSYaG-EeWo4MryxFK7EQ" name="askForVote">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpAzcKG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tu1vOqG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tu1vO6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tu1vPKG-EeWo4MryxFK7EQ">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpBagKG-EeWo4MryxFK7EQ"/>
+        <type xmi:id="_tu1vPaG-EeWo4MryxFK7EQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tu1vPqG-EeWo4MryxFK7EQ" name="in">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpAzcaG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tu1vP6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tu1vQKG-EeWo4MryxFK7EQ" name="BufferedReader">
+          <modelElement href="ConcurrentProg_coursework.uml#_tn-RoKG-EeWo4MryxFK7EQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tu1vQaG-EeWo4MryxFK7EQ" name="out">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpAzcqG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tu1vQqG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tu1vQ6G-EeWo4MryxFK7EQ" name="PrintWriter">
+          <modelElement href="ConcurrentProg_coursework.uml#_tn_fwaG-EeWo4MryxFK7EQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tu1vRKG-EeWo4MryxFK7EQ" name="clientRequest">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpAzc6G-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tu1vRaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tu1vRqG-EeWo4MryxFK7EQ" name="ClientRequest">
+          <modelElement href="ConcurrentProg_coursework.uml#_tmvikKG-EeWo4MryxFK7EQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tuDriaG-EeWo4MryxFK7EQ" comments="_tuAoMKG-EeWo4MryxFK7EQ" targetConnectionVisual="_tuAoMaG-EeWo4MryxFK7EQ" name="ClientRequest" associationsOut="_tuDEcKG-EeWo4MryxFK7EQ _tuDrgKG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tmvikKG-EeWo4MryxFK7EQ"/>
+    <visualProperties xmi:id="_tuDriqG-EeWo4MryxFK7EQ" position="-837.0,-244.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_tuDri6G-EeWo4MryxFK7EQ" label="+"/>
+    <attributes xmi:id="_tuDrjKG-EeWo4MryxFK7EQ" name="socket">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpEd0KG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xnSLkKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnTZsKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xoBLYKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="_tuDrjqG-EeWo4MryxFK7EQ" label="~"/>
+      <cardinality xmi:id="_tuDrj6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tuDrkKG-EeWo4MryxFK7EQ" name="Socket">
+        <modelElement href="ConcurrentProg_coursework.uml#_toAG0aG-EeWo4MryxFK7EQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tuDrkaG-EeWo4MryxFK7EQ" name="name">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpEd0qG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tuDrkqG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tuDrk6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tuDrlKG-EeWo4MryxFK7EQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tuDrlaG-EeWo4MryxFK7EQ" name="">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpFE4KG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xnUn0KHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnV18KHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xoBycKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="_tuDrl6G-EeWo4MryxFK7EQ" label="~"/>
+      <cardinality xmi:id="_tuDrmKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tuDrmaG-EeWo4MryxFK7EQ" name="VotingRound">
+        <modelElement href="ConcurrentProg_coursework.uml#_tnLAYKG-EeWo4MryxFK7EQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tuDrmqG-EeWo4MryxFK7EQ" name="ip">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpFE4qG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tuDrm6G-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tuDrnKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tuDrnaG-EeWo4MryxFK7EQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tuDrnqG-EeWo4MryxFK7EQ" name="run">
+      <modelElement href="ConcurrentProg_coursework.uml#_tm0bEKG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_tuDrn6G-EeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tm0bEaG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tuDroKG-EeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_tm1CIKG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tuDroaG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tuDroqG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tuDro6G-EeWo4MryxFK7EQ" name="ClientRequest">
+      <modelElement href="ConcurrentProg_coursework.uml#_tovGoKG-EeWo4MryxFK7EQ"/>
+      <keywords xmi:id="_tuDrpKG-EeWo4MryxFK7EQ" keyword="create"/>
+      <visibility xmi:id="_tuDrpaG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tuDrpqG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tuDrp6G-EeWo4MryxFK7EQ">
+        <modelElement href="ConcurrentProg_coursework.uml#_tovtsqG-EeWo4MryxFK7EQ"/>
+        <type xmi:id="_tuDrqKG-EeWo4MryxFK7EQ" name="ClientRequest">
+          <modelElement href="ConcurrentProg_coursework.uml#_tmvikKG-EeWo4MryxFK7EQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tuDrqaG-EeWo4MryxFK7EQ" name="name">
+        <modelElement href="ConcurrentProg_coursework.uml#_tovGoaG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tuDrqqG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tuDrq6G-EeWo4MryxFK7EQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tuDrrKG-EeWo4MryxFK7EQ" name="sock">
+        <modelElement href="ConcurrentProg_coursework.uml#_tovGoqG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tuDrraG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tuDrrqG-EeWo4MryxFK7EQ" name="Socket">
+          <modelElement href="ConcurrentProg_coursework.uml#_toAG0aG-EeWo4MryxFK7EQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tuDrr6G-EeWo4MryxFK7EQ" name="votinground">
+        <modelElement href="ConcurrentProg_coursework.uml#_tovGo6G-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tuDrsKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tuDrsaG-EeWo4MryxFK7EQ" name="VotingRound">
+          <modelElement href="ConcurrentProg_coursework.uml#_tnLAYKG-EeWo4MryxFK7EQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tuDrsqG-EeWo4MryxFK7EQ" name="ip">
+        <modelElement href="ConcurrentProg_coursework.uml#_tovGpKG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tuDrs6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tuDrtKG-EeWo4MryxFK7EQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tujawKG-EeWo4MryxFK7EQ" name="ServerGUIController" associationsOut="_tuS8EKG-EeWo4MryxFK7EQ _tua34KG-EeWo4MryxFK7EQ _tube8KG-EeWo4MryxFK7EQ _tucGAKG-EeWo4MryxFK7EQ _tudUIKG-EeWo4MryxFK7EQ _tud7MKG-EeWo4MryxFK7EQ _tueiQKG-EeWo4MryxFK7EQ _tufJUKG-EeWo4MryxFK7EQ _tufwYKG-EeWo4MryxFK7EQ _tugXcKG-EeWo4MryxFK7EQ _tug-gKG-EeWo4MryxFK7EQ _tuhlkKG-EeWo4MryxFK7EQ _tuiMoKG-EeWo4MryxFK7EQ _tuiztaG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tnABQKG-EeWo4MryxFK7EQ"/>
+    <visualProperties xmi:id="_tujawaG-EeWo4MryxFK7EQ" position="445.0,-612.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_tujawqG-EeWo4MryxFK7EQ" label="+"/>
+    <attributes xmi:id="_tujaw6G-EeWo4MryxFK7EQ" name="i">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpJWUKG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_tujaxKG-EeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpJWUaG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tujaxaG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tujaxqG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tujax6G-EeWo4MryxFK7EQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tujayKG-EeWo4MryxFK7EQ" name="serv">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpJWUqG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xnYSMKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnY5QKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnyh4KHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="_tujayqG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tujay6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tujazKG-EeWo4MryxFK7EQ" name="Server">
+        <modelElement href="ConcurrentProg_coursework.uml#_tm8W4KG-EeWo4MryxFK7EQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tujazaG-EeWo4MryxFK7EQ" name="BtnAdd">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpJ9YaG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xnZgUKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnZgUaHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xnaHYKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnaHYaHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xnzI8KHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnzI8aHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <visibility xmi:id="_tuja0KG-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tuja0aG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tuja0qG-EeWo4MryxFK7EQ" name="Button">
+        <modelElement href="ConcurrentProg_coursework.uml#_toa9kaG-EeWo4MryxFK7EQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tuja06G-EeWo4MryxFK7EQ" name="BtnDelete">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpJ9ZaG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xnaucKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnaucaHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xnbVgKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnbVgaHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xnzwAKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xn0XEKHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <visibility xmi:id="_tuja1qG-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tuja16G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tuja2KG-EeWo4MryxFK7EQ" name="Button">
+        <modelElement href="ConcurrentProg_coursework.uml#_toa9kaG-EeWo4MryxFK7EQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tuja2aG-EeWo4MryxFK7EQ" name="BtnStart">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpKkc6G-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xnb8kKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xncjoKHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xndKsKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xndKsaHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xn0-IKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xn1lMKHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <visibility xmi:id="_tuja3KG-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tuja3aG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tuja3qG-EeWo4MryxFK7EQ" name="Button">
+        <modelElement href="ConcurrentProg_coursework.uml#_toa9kaG-EeWo4MryxFK7EQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tuja36G-EeWo4MryxFK7EQ" name="BtnOpen">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpLLgqG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xneY0KHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xneY0aHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xne_4KHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xne_4aHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xn2MQKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xn2MQaHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <visibility xmi:id="_tuja4qG-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tuja46G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tuja5KG-EeWo4MryxFK7EQ" name="Button">
+        <modelElement href="ConcurrentProg_coursework.uml#_toa9kaG-EeWo4MryxFK7EQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tuja5aG-EeWo4MryxFK7EQ" name="BtnClose">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpLykKG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xnfm8KHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnfm8aHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xng1EKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnhcIKHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xn2zUKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xn3aYKHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <visibility xmi:id="_tuja6KG-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tuja6aG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tuja6qG-EeWo4MryxFK7EQ" name="Button">
+        <modelElement href="ConcurrentProg_coursework.uml#_toa9kaG-EeWo4MryxFK7EQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tuja66G-EeWo4MryxFK7EQ" name="BtnEnd">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpMZoKG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xniqQKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xniqQaHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xnj4YKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnj4YaHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xn4BcKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xn4BcaHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <visibility xmi:id="_tuja7qG-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tuja76G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tuja8KG-EeWo4MryxFK7EQ" name="Button">
+        <modelElement href="ConcurrentProg_coursework.uml#_toa9kaG-EeWo4MryxFK7EQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tuja8aG-EeWo4MryxFK7EQ" name="LblHighestVote">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpMZpKG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xnlGgKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnlGgaHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xnltkKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnmUoKHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xn4ogKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xn5PkKHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <visibility xmi:id="_tuja9KG-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tuja9aG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tuja9qG-EeWo4MryxFK7EQ" name="Label">
+        <modelElement href="ConcurrentProg_coursework.uml#_tobkoaG-EeWo4MryxFK7EQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tuja96G-EeWo4MryxFK7EQ" name="TxtAreaLogs">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpNAs6G-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xnm7sKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnm7saHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xnniwKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnniwaHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xn52oKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xn52oaHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <visibility xmi:id="_tuja-qG-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tuja-6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tuja_KG-EeWo4MryxFK7EQ" name="TextArea">
+        <modelElement href="ConcurrentProg_coursework.uml#_todZ0KG-EeWo4MryxFK7EQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tuja_aG-EeWo4MryxFK7EQ" name="ListviewNames">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpNnw6G-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xnoJ0KHZEeWo4MryxFK7EQ" name="Generics"/>
+      <stereotypes xmi:id="_xnow4KHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnow4aHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xnpX8KHZEeWo4MryxFK7EQ" name="Generics"/>
+      <stereotypes xmi:id="_xnpX8aHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnp_AKHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xn7EwKHZEeWo4MryxFK7EQ" name="Generics"/>
+      <stereotypes xmi:id="_xn7EwaHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xn7EwqHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <visibility xmi:id="_tujbAaG-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tujbAqG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tujbA6G-EeWo4MryxFK7EQ" name="ListView">
+        <modelElement href="ConcurrentProg_coursework.uml#_tocLsaG-EeWo4MryxFK7EQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tujbBKG-EeWo4MryxFK7EQ" name="TxtFieldName">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpO146G-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xnqmEKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnrNIKHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xnrNIaHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnr0MKHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xn8S4KHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xn8S4aHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <visibility xmi:id="_tujbB6G-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tujbCKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tujbCaG-EeWo4MryxFK7EQ" name="TextField">
+        <modelElement href="ConcurrentProg_coursework.uml#_todZ0qG-EeWo4MryxFK7EQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tujbCqG-EeWo4MryxFK7EQ" name="ChartVotes">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpPc86G-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xnr0MaHZEeWo4MryxFK7EQ" name="Generics"/>
+      <stereotypes xmi:id="_xnsbQKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnsbQaHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xntCUKHZEeWo4MryxFK7EQ" name="Generics"/>
+      <stereotypes xmi:id="_xntCUaHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xntCUqHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xn858KHZEeWo4MryxFK7EQ" name="Generics"/>
+      <stereotypes xmi:id="_xn858aHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xn9hAKHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <visibility xmi:id="_tujbDqG-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tujbD6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tujbEKG-EeWo4MryxFK7EQ" name="BarChart">
+        <modelElement href="ConcurrentProg_coursework.uml#_toWsIaG-EeWo4MryxFK7EQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tujbEaG-EeWo4MryxFK7EQ" name="xAxis">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpQrEKG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xntpYKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnuQcKHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xnuQcaHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnu3gKHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <stereotypes xmi:id="_xn-IEKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xn-IEaHZEeWo4MryxFK7EQ" name="Annotations"/>
+      <visibility xmi:id="_tujbFKG-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tujbFaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tujbFqG-EeWo4MryxFK7EQ" name="CategoryAxis">
+        <modelElement href="ConcurrentProg_coursework.uml#_toXTMaG-EeWo4MryxFK7EQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tujbF6G-EeWo4MryxFK7EQ" defaultValue="FXCollections.observableArrayList()" name="listItems">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpRSIqG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xnvekKHZEeWo4MryxFK7EQ" name="Generics"/>
+      <stereotypes xmi:id="_xnvekaHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnwFoKHZEeWo4MryxFK7EQ" name="Generics"/>
+      <stereotypes xmi:id="_xnwFoaHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xn-vIKHZEeWo4MryxFK7EQ" name="Generics"/>
+      <stereotypes xmi:id="_xn-vIaHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="_tujbGqG-EeWo4MryxFK7EQ" label="~"/>
+      <cardinality xmi:id="_tujbG6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tujbHKG-EeWo4MryxFK7EQ" name="ObservableList">
+        <modelElement href="ConcurrentProg_coursework.uml#_toU28aG-EeWo4MryxFK7EQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tujbHaG-EeWo4MryxFK7EQ" comments="_tuUxQKG-EeWo4MryxFK7EQ" targetConnectionVisual="_tuUxQaG-EeWo4MryxFK7EQ" name="refresh">
+      <modelElement href="ConcurrentProg_coursework.uml#_tnCdgKG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tujbHqG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tujbH6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tujbIKG-EeWo4MryxFK7EQ" name="addAction">
+      <modelElement href="ConcurrentProg_coursework.uml#_to2bYKG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_tujbIaG-EeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_to3CcKG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tujbIqG-EeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_to3CcaG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tujbI6G-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tujbJKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tujbJaG-EeWo4MryxFK7EQ" name="action">
+        <modelElement href="ConcurrentProg_coursework.uml#_to2bYaG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tujbJqG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tujbJ6G-EeWo4MryxFK7EQ" name="ActionEvent">
+          <modelElement href="ConcurrentProg_coursework.uml#_toE_U6G-EeWo4MryxFK7EQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tujbKKG-EeWo4MryxFK7EQ" name="deleteAction">
+      <modelElement href="ConcurrentProg_coursework.uml#_to3Cc6G-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_tujbKaG-EeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_to3pgKG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tujbKqG-EeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_to3pgaG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tujbK6G-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tujbLKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tujbLaG-EeWo4MryxFK7EQ" name="action">
+        <modelElement href="ConcurrentProg_coursework.uml#_to3CdKG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tujbLqG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tujbL6G-EeWo4MryxFK7EQ" name="ActionEvent">
+          <modelElement href="ConcurrentProg_coursework.uml#_toE_U6G-EeWo4MryxFK7EQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tujbMKG-EeWo4MryxFK7EQ" name="startAction">
+      <modelElement href="ConcurrentProg_coursework.uml#_to3pg6G-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_tujbMaG-EeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_to4QkKG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tujbMqG-EeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_to4QkaG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tujbM6G-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tujbNKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tujbNaG-EeWo4MryxFK7EQ" name="action">
+        <modelElement href="ConcurrentProg_coursework.uml#_to3phKG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tujbNqG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tujbN6G-EeWo4MryxFK7EQ" name="ActionEvent">
+          <modelElement href="ConcurrentProg_coursework.uml#_toE_U6G-EeWo4MryxFK7EQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tujbOKG-EeWo4MryxFK7EQ" name="openAction">
+      <modelElement href="ConcurrentProg_coursework.uml#_to4Qk6G-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_tujbOaG-EeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_to43oKG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tujbOqG-EeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_to43oaG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tujbO6G-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tujbPKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tujbPaG-EeWo4MryxFK7EQ" name="action">
+        <modelElement href="ConcurrentProg_coursework.uml#_to4QlKG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tujbPqG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tujbP6G-EeWo4MryxFK7EQ" name="ActionEvent">
+          <modelElement href="ConcurrentProg_coursework.uml#_toE_U6G-EeWo4MryxFK7EQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tujbQKG-EeWo4MryxFK7EQ" name="closeAction">
+      <modelElement href="ConcurrentProg_coursework.uml#_to43o6G-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_tujbQaG-EeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_to5esKG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tujbQqG-EeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_to5esaG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tujbQ6G-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tujbRKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tujbRaG-EeWo4MryxFK7EQ" name="action">
+        <modelElement href="ConcurrentProg_coursework.uml#_to43pKG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tujbRqG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tujbR6G-EeWo4MryxFK7EQ" name="ActionEvent">
+          <modelElement href="ConcurrentProg_coursework.uml#_toE_U6G-EeWo4MryxFK7EQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tujbSKG-EeWo4MryxFK7EQ" name="endAction">
+      <modelElement href="ConcurrentProg_coursework.uml#_to6FwKG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_tujbSaG-EeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_to6FwqG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tujbSqG-EeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_to6s0KG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tujbS6G-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tujbTKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tujbTaG-EeWo4MryxFK7EQ" name="action">
+        <modelElement href="ConcurrentProg_coursework.uml#_to6FwaG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tujbTqG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tujbT6G-EeWo4MryxFK7EQ" name="ActionEvent">
+          <modelElement href="ConcurrentProg_coursework.uml#_toE_U6G-EeWo4MryxFK7EQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tujbUKG-EeWo4MryxFK7EQ" name="initialize">
+      <modelElement href="ConcurrentProg_coursework.uml#_to6s0qG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_tujbUaG-EeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_to7T4KG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tujbUqG-EeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_to7T4aG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tujbU6G-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tujbVKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tujbVaG-EeWo4MryxFK7EQ" name="location">
+        <modelElement href="ConcurrentProg_coursework.uml#_to6s06G-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tujbVqG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tujbV6G-EeWo4MryxFK7EQ" name="URL">
+          <modelElement href="ConcurrentProg_coursework.uml#_toP-cKG-EeWo4MryxFK7EQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_tujbWKG-EeWo4MryxFK7EQ" name="resources">
+        <modelElement href="ConcurrentProg_coursework.uml#_to6s1KG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tujbWaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tujbWqG-EeWo4MryxFK7EQ" name="ResourceBundle">
+          <modelElement href="ConcurrentProg_coursework.uml#_toSasKG-EeWo4MryxFK7EQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tujbW6G-EeWo4MryxFK7EQ" comments="_tuV_YKG-EeWo4MryxFK7EQ" targetConnectionVisual="_tuV_YaG-EeWo4MryxFK7EQ" name="setDataChart">
+      <modelElement href="ConcurrentProg_coursework.uml#_to768KG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tujbXKG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tujbXaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tujbXqG-EeWo4MryxFK7EQ" name="listNominated">
+        <modelElement href="ConcurrentProg_coursework.uml#_to768aG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tujbX6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tujbYKG-EeWo4MryxFK7EQ" name="List">
+          <modelElement href="ConcurrentProg_coursework.uml#_toRzoKG-EeWo4MryxFK7EQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tuPRuaG-EeWo4MryxFK7EQ" name="Server" associationsIn="_tuS8EKG-EeWo4MryxFK7EQ" associationsOut="_tuMOYKG-EeWo4MryxFK7EQ _tuPRsKG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tm8W4KG-EeWo4MryxFK7EQ"/>
+    <visualProperties xmi:id="_tuPRuqG-EeWo4MryxFK7EQ" position="21.0,-449.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_tuPRu6G-EeWo4MryxFK7EQ" label="+"/>
+    <attributes xmi:id="_tuPRvKG-EeWo4MryxFK7EQ" defaultValue="4" name="NTHREADS" staticAttribute="true">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpG6EaG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tuPRvaG-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tuPRvqG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tuPRv6G-EeWo4MryxFK7EQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tuPRwKG-EeWo4MryxFK7EQ" defaultValue="1" name="i" staticAttribute="true">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpHhIaG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_tuPRwaG-EeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpHhI6G-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tuPRwqG-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tuPRw6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tuPRxKG-EeWo4MryxFK7EQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tuPRxaG-EeWo4MryxFK7EQ" defaultValue="10" name="QSIZE" staticAttribute="true">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpIIMKG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tuPRxqG-EeWo4MryxFK7EQ" label="-"/>
+      <cardinality xmi:id="_tuPRx6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tuPRyKG-EeWo4MryxFK7EQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tuPRyaG-EeWo4MryxFK7EQ" name="">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpIIMqG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_xnXEEKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnXrIKHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_xnx60KHZEeWo4MryxFK7EQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="_tuPRy6G-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tuPRzKG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tuPRzaG-EeWo4MryxFK7EQ" name="VotingRound">
+        <modelElement href="ConcurrentProg_coursework.uml#_tnLAYKG-EeWo4MryxFK7EQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tuPRzqG-EeWo4MryxFK7EQ" name="pool">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpIvQaG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tuPRz6G-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tuPR0KG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tuPR0aG-EeWo4MryxFK7EQ" name="ThreadPoolExecutor">
+        <modelElement href="ConcurrentProg_coursework.uml#_toM7IaG-EeWo4MryxFK7EQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tuPR0qG-EeWo4MryxFK7EQ" name="run">
+      <modelElement href="ConcurrentProg_coursework.uml#_tm9lAKG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_tuPR06G-EeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tm9lAaG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tuPR1KG-EeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_tm9lAqG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tuPR1aG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tuPR1qG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tuPR16G-EeWo4MryxFK7EQ" comments="_tuMOYaG-EeWo4MryxFK7EQ" targetConnectionVisual="_tuMOYqG-EeWo4MryxFK7EQ" name="getVotingRound">
+      <modelElement href="ConcurrentProg_coursework.uml#_tm9lBKG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tuPR2KG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tuPR2aG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tuPR2qG-EeWo4MryxFK7EQ">
+        <modelElement href="ConcurrentProg_coursework.uml#_toOwU6G-EeWo4MryxFK7EQ"/>
+        <type xmi:id="_tuPR26G-EeWo4MryxFK7EQ" name="VotingRound">
+          <modelElement href="ConcurrentProg_coursework.uml#_tnLAYKG-EeWo4MryxFK7EQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tuPR3KG-EeWo4MryxFK7EQ" comments="_tuM1cKG-EeWo4MryxFK7EQ" targetConnectionVisual="_tuM1caG-EeWo4MryxFK7EQ" name="Server">
+      <modelElement href="ConcurrentProg_coursework.uml#_toOJQaG-EeWo4MryxFK7EQ"/>
+      <keywords xmi:id="_tuPR3aG-EeWo4MryxFK7EQ" keyword="create"/>
+      <visibility xmi:id="_tuPR3qG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tuPR36G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tuPR4KG-EeWo4MryxFK7EQ">
+        <modelElement href="ConcurrentProg_coursework.uml#_toOwUqG-EeWo4MryxFK7EQ"/>
+        <type xmi:id="_tuPR4aG-EeWo4MryxFK7EQ" name="Server">
+          <modelElement href="ConcurrentProg_coursework.uml#_tm8W4KG-EeWo4MryxFK7EQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tuPR4qG-EeWo4MryxFK7EQ" name="votingRound">
+        <modelElement href="ConcurrentProg_coursework.uml#_toOJQqG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tuPR46G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tuPR5KG-EeWo4MryxFK7EQ" name="VotingRound">
+          <modelElement href="ConcurrentProg_coursework.uml#_tnLAYKG-EeWo4MryxFK7EQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tuJyIKG-EeWo4MryxFK7EQ" name="Main">
+    <modelElement href="ConcurrentProg_coursework.uml#_tm23UKG-EeWo4MryxFK7EQ"/>
+    <visualProperties xmi:id="_tuJyIaG-EeWo4MryxFK7EQ" position="17.0,-600.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_tuJyIqG-EeWo4MryxFK7EQ" label="+"/>
+    <operations xmi:id="_tuJyI6G-EeWo4MryxFK7EQ" name="main" staticOperation="true">
+      <modelElement href="ConcurrentProg_coursework.uml#_tm3eYKG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tuJyJKG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tuJyJaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tuJyJqG-EeWo4MryxFK7EQ" name="args">
+        <modelElement href="ConcurrentProg_coursework.uml#_tm3eYaG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tuJyJ6G-EeWo4MryxFK7EQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_tuJyKKG-EeWo4MryxFK7EQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tuJyKaG-EeWo4MryxFK7EQ" name="start">
+      <modelElement href="ConcurrentProg_coursework.uml#_towUwKG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_tuJyKqG-EeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tow70KG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tuJyK6G-EeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_tow70aG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tuJyLKG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tuJyLaG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_tuJyLqG-EeWo4MryxFK7EQ" name="primaryStage">
+        <modelElement href="ConcurrentProg_coursework.uml#_towUwaG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tuJyL6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tuJyMKG-EeWo4MryxFK7EQ" name="Stage">
+          <modelElement href="ConcurrentProg_coursework.uml#_toG0gaG-EeWo4MryxFK7EQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_tvAtwKG-EeWo4MryxFK7EQ" comments="_tu-4kKG-EeWo4MryxFK7EQ" targetConnectionVisual="_tu-4kaG-EeWo4MryxFK7EQ" name="Nominated" associationsIn="_tu1uoKG-EeWo4MryxFK7EQ">
+    <modelElement href="ConcurrentProg_coursework.uml#_tm5TkKG-EeWo4MryxFK7EQ"/>
+    <visualProperties xmi:id="_tvAtwaG-EeWo4MryxFK7EQ" position="13.0,-954.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_tvAtwqG-EeWo4MryxFK7EQ" label="+"/>
+    <attributes xmi:id="_tvAtw6G-EeWo4MryxFK7EQ" defaultValue="0" name="NumberOfVote">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpFr8KG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_tvAtxKG-EeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tpFr8aG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tvAtxaG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tvAtxqG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tvAtx6G-EeWo4MryxFK7EQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_tvAtyKG-EeWo4MryxFK7EQ" name="name">
+      <modelElement href="ConcurrentProg_coursework.uml#_tpG6EKG-EeWo4MryxFK7EQ"/>
+      <visibility xmi:id="_tvAtyaG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tvAtyqG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <type xmi:id="_tvAty6G-EeWo4MryxFK7EQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_tvAtzKG-EeWo4MryxFK7EQ" comments="_tu_foKG-EeWo4MryxFK7EQ" targetConnectionVisual="_tu_foaG-EeWo4MryxFK7EQ" name="Nominated">
+      <modelElement href="ConcurrentProg_coursework.uml#_tm56oKG-EeWo4MryxFK7EQ"/>
+      <keywords xmi:id="_tvAtzaG-EeWo4MryxFK7EQ" keyword="create"/>
+      <visibility xmi:id="_tvAtzqG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tvAtz6G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tvAt0KG-EeWo4MryxFK7EQ">
+        <modelElement href="ConcurrentProg_coursework.uml#_tm6hsqG-EeWo4MryxFK7EQ"/>
+        <type xmi:id="_tvAt0aG-EeWo4MryxFK7EQ" name="Nominated">
+          <modelElement href="ConcurrentProg_coursework.uml#_tm5TkKG-EeWo4MryxFK7EQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tvAt0qG-EeWo4MryxFK7EQ" name="n">
+        <modelElement href="ConcurrentProg_coursework.uml#_tm56oaG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tvAt06G-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tvAt1KG-EeWo4MryxFK7EQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_tvAt1aG-EeWo4MryxFK7EQ" name="incrementVote">
+      <modelElement href="ConcurrentProg_coursework.uml#_tm6hs6G-EeWo4MryxFK7EQ"/>
+      <keywords xmi:id="_tvAt1qG-EeWo4MryxFK7EQ" keyword="synchronized"/>
+      <visibility xmi:id="_tvAt16G-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tvAt2KG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_tvAt2aG-EeWo4MryxFK7EQ" name="toString">
+      <modelElement href="ConcurrentProg_coursework.uml#_tm7IwKG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_tvAt2qG-EeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_tm7IwqG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tvAt26G-EeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_tm7v0KG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tvAt3KG-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tvAt3aG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tvAt3qG-EeWo4MryxFK7EQ">
+        <modelElement href="ConcurrentProg_coursework.uml#_tm7IwaG-EeWo4MryxFK7EQ"/>
+        <type xmi:id="_tvAt36G-EeWo4MryxFK7EQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_tvAt4KG-EeWo4MryxFK7EQ" name="equals">
+      <modelElement href="ConcurrentProg_coursework.uml#_toyJ8aG-EeWo4MryxFK7EQ"/>
+      <stereotypes xmi:id="_tvAt4aG-EeWo4MryxFK7EQ" name="LegacyStyledElement">
+        <modelElement href="ConcurrentProg_coursework.uml#_toyxAaG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_tvAt4qG-EeWo4MryxFK7EQ" name="Annotations">
+        <modelElement href="ConcurrentProg_coursework.uml#_tozYEKG-EeWo4MryxFK7EQ"/>
+      </stereotypes>
+      <visibility xmi:id="_tvAt46G-EeWo4MryxFK7EQ" label="+"/>
+      <cardinality xmi:id="_tvAt5KG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_tvAt5aG-EeWo4MryxFK7EQ">
+        <modelElement href="ConcurrentProg_coursework.uml#_toyxAKG-EeWo4MryxFK7EQ"/>
+        <type xmi:id="_tvAt5qG-EeWo4MryxFK7EQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_tvAt56G-EeWo4MryxFK7EQ" name="obj">
+        <modelElement href="ConcurrentProg_coursework.uml#_toyJ8qG-EeWo4MryxFK7EQ"/>
+        <cardinality xmi:id="_tvAt6KG-EeWo4MryxFK7EQ" label="1" max="1" min="1"/>
+        <type xmi:id="_tvAt6aG-EeWo4MryxFK7EQ" name="Object">
+          <modelElement href="ConcurrentProg_coursework.uml#_toxi4KG-EeWo4MryxFK7EQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
